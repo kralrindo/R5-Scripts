@@ -1,0 +1,3063 @@
+//BEGIN_AUTOGEN/////////////////////////////
+////////////////////////////////////////////
+//// AUTO-GENERATED SECTION             ////
+//// Manual changes will be lost.       ////
+////////////////////////////////////////////
+////////////////////////////////////////////
+
+// All the character item flavors from Bakery that are registered in the game for *stat tracking* & *character ownership caching*.
+$ENUM_START eCharacterFlavor
+	SAID01897196488 // character_random
+	SAID00725342087 // character_bangalore
+	SAID00898565421 // character_bloodhound
+	SAID01111853120 // character_caustic
+	SAID00182221730 // character_gibraltar
+	SAID01409694078 // character_lifeline
+	SAID02045656322 // character_mirage
+	SAID00843405508 // character_octane
+	SAID01464849662 // character_pathfinder
+	SAID00827049897 // character_wraith
+	SAID00187386164 // character_wattson
+	SAID00080232848 // character_crypto
+	SAID00064207844 // character_revenant
+	SAID01579967516 // character_loba
+	SAID02105222312 // character_rampart
+	SAID00088599337 // character_horizon
+	SAID00496516687 // character_madmaggie
+	SAID00435256162 // character_valkyrie
+	SAID00216194192 // character_ash
+	SAID00596489740 // character_ballistic
+	SAID00405279270 // character_fuse
+	SAID01399802246 // character_seer
+	SAID01014661899 // character_newcastle
+	SAID00126647596 // character_vantage
+	SAID00147804686 // character_catalyst
+$ENUM_END
+
+// All seasons.
+$ENUM_START eSeasonFlavor
+	SAID01769158912 // settings/itemflav/calevent/season01.rpak
+	SAID01774506873 // settings/itemflav/calevent/season02.rpak
+	SAID00724938940 // settings/itemflav/calevent/season03.rpak
+	SAID01092263930 // settings/itemflav/calevent/season04.rpak
+	SAID00835358768 // settings/itemflav/calevent/season05.rpak
+	SAID00049860047 // settings/itemflav/calevent/season06.rpak
+	SAID00777894692 // settings/itemflav/calevent/season07.rpak
+	SAID00831495238 // settings/itemflav/calevent/season08.rpak
+	SAID01080534582 // settings/itemflav/calevent/season09.rpak
+	SAID01783977028 // settings/itemflav/calevent/season10.rpak
+	SAID00048930450 // settings/itemflav/calevent/season11.rpak
+	SAID00479992436 // settings/itemflav/calevent/season12.rpak
+	SAID00798342294 // settings/itemflav/calevent/season13.rpak
+	SAID01642977899 // settings/itemflav/calevent/season14.rpak
+	SAID00589335273 // settings/itemflav/calevent/season15.rpak
+	SAID00801928788 // settings/itemflav/calevent/season16.rpak
+	SAID00134970849 // settings/itemflav/calevent/season17.rpak
+	SAID00134750981 // settings/itemflav/calevent/season18.rpak
+$ENUM_END
+
+// All Ranked Cal Event Periods.
+$ENUM_START eRankedPeriodFlavor
+	SAID00747315762 // settings/itemflav/calevent/rankedseason02.rpak
+	SAID00091805734 // settings/itemflav/calevent/rankedseason03.rpak
+	SAID00609587000 // settings/itemflav/calevent/rankedseason04.rpak
+	SAID00638209737 // settings/itemflav/calevent/rankedseason05.rpak
+	SAID01826354644 // settings/itemflav/calevent/rankedseason06.rpak
+	SAID00461784517 // settings/itemflav/calevent/rankedseason07.rpak
+	SAID01162744308 // settings/itemflav/calevent/rankedseason08.rpak
+	SAID01649072598 // settings/itemflav/calevent/rankedseason09.rpak
+	SAID01091892544 // settings/itemflav/calevent/rankedseason10.rpak
+	SAID01007141711 // settings/itemflav/calevent/rankedseason11.rpak
+	SAID01547807959 // settings/itemflav/calevent/rankedseason12.rpak
+	SAID02144147554 // settings/itemflav/calevent/rankedseason13.rpak
+	SAID01733022993 // settings/itemflav/calevent/rankedseason14.rpak
+	SAID00102643758 // settings/itemflav/calevent/rankedseason15.rpak
+	SAID02005235415 // settings/itemflav/calevent/rankedseason16.rpak
+$ENUM_END
+
+// All Arenas Ranked Periods.
+$ENUM_START eArenasRankedPeriodFlavor
+	SAID00926519318 // settings/itemflav/calevent/rankedarenass10.rpak
+	SAID00781342567 // settings/itemflav/calevent/rankedarenas11.rpak
+	SAID00170407135 // settings/itemflav/calevent/rankedarenas12.rpak
+	SAID00224037796 // settings/itemflav/calevent/rankedarenas13.rpak
+	SAID00310546825 // settings/itemflav/calevent/rankedarenas14.rpak
+	SAID00058416642 // settings/itemflav/calevent/rankedarenas15.rpak
+$ENUM_END
+
+// All Ranked 2.0 Periods.
+$ENUM_START eRankedPeriod2Pt0Flavor
+	SAID01711148254 // settings/itemflav/ranked2pt0/rankedperiod17.rpak
+	SAID01068186165 // settings/itemflav/ranked2pt0/rankedperiod18.rpak
+$ENUM_END
+
+// All Ranked Stat Periods.
+$ENUM_START eRankedStatPeriod
+	SAID00747315762 // settings/itemflav/calevent/rankedseason02.rpak
+	SAID00091805734 // settings/itemflav/calevent/rankedseason03.rpak
+	SAID00609587000 // settings/itemflav/calevent/rankedseason04.rpak
+	SAID00638209737 // settings/itemflav/calevent/rankedseason05.rpak
+	SAID01826354644 // settings/itemflav/calevent/rankedseason06.rpak
+	SAID00461784517 // settings/itemflav/calevent/rankedseason07.rpak
+	SAID01162744308 // settings/itemflav/calevent/rankedseason08.rpak
+	SAID01649072598 // settings/itemflav/calevent/rankedseason09.rpak
+	SAID01091892544 // settings/itemflav/calevent/rankedseason10.rpak
+	SAID01007141711 // settings/itemflav/calevent/rankedseason11.rpak
+	SAID01547807959 // settings/itemflav/calevent/rankedseason12.rpak
+	SAID02144147554 // settings/itemflav/calevent/rankedseason13.rpak
+	SAID01733022993 // settings/itemflav/calevent/rankedseason14.rpak
+	SAID00102643758 // settings/itemflav/calevent/rankedseason15.rpak
+	SAID02005235415 // settings/itemflav/calevent/rankedseason16.rpak
+	SAID01711148254 // settings/itemflav/ranked2pt0/rankedperiod17.rpak
+	SAID01068186165 // settings/itemflav/ranked2pt0/rankedperiod18.rpak
+$ENUM_END
+
+// All the weapon item flavors from Bakery that are registered in the game.
+$ENUM_START eWeaponFlavor
+	SAID01475792313 // settings/itemflav/loot/main_weapon/alternator.rpak
+	SAID00686444189 // settings/itemflav/loot/main_weapon/autopistol.rpak
+	SAID00107352658 // settings/itemflav/loot/main_weapon/chargerifle.rpak
+	SAID00352110003 // settings/itemflav/loot/main_weapon/devotion.rpak
+	SAID00908539842 // settings/itemflav/loot/main_weapon/dmr.rpak
+	SAID01820095990 // settings/itemflav/loot/main_weapon/energy_ar.rpak
+	SAID01928357643 // settings/itemflav/loot/main_weapon/eva.rpak
+	SAID01870377113 // settings/itemflav/loot/main_weapon/flatline.rpak
+	SAID00909655776 // settings/itemflav/loot/main_weapon/g7.rpak
+	SAID01082669812 // settings/itemflav/loot/main_weapon/hemlok.rpak
+	SAID01920744447 // settings/itemflav/loot/main_weapon/kraber.rpak
+	SAID00194888968 // settings/itemflav/loot/main_weapon/lstar.rpak
+	SAID00418361060 // settings/itemflav/loot/main_weapon/mastiff.rpak
+	SAID00945439943 // settings/itemflav/loot/main_weapon/mozambique.rpak
+	SAID01496005473 // settings/itemflav/loot/main_weapon/pdw.rpak
+	SAID01388774763 // settings/itemflav/loot/main_weapon/peacekeeper.rpak
+	SAID00048783537 // settings/itemflav/loot/main_weapon/r301.rpak
+	SAID00080404303 // settings/itemflav/loot/main_weapon/r97.rpak
+	SAID00970511567 // settings/itemflav/loot/main_weapon/semipistol.rpak
+	SAID00947460272 // settings/itemflav/loot/main_weapon/sentinel.rpak
+	SAID01363034817 // settings/itemflav/loot/main_weapon/spitfire.rpak
+	SAID01603172346 // settings/itemflav/loot/main_weapon/tripletake.rpak
+	SAID02091853053 // settings/itemflav/loot/main_weapon/wingman.rpak
+	SAID00342631558 // settings/itemflav/loot/main_weapon/volt_smg.rpak
+	SAID01408780340 // settings/itemflav/loot/main_weapon/3030repeater.rpak
+	SAID01644528094 // settings/itemflav/loot/main_weapon/compound_bow.rpak
+	SAID02050922236 // settings/itemflav/loot/main_weapon/dragon.rpak
+	SAID01981891556 // settings/itemflav/loot/main_weapon/car.rpak
+	SAID01580685432 // settings/itemflav/loot/main_weapon/nemesis.rpak
+$ENUM_END
+
+// All the battle pass flavor refs.
+$ENUM_START eBattlePass
+	SAID01440294075 // settings/itemflav/battlepass/season_01.rpak
+	SAID00784324919 // settings/itemflav/battlepass/season02.rpak
+	SAID01838736969 // settings/itemflav/battlepass/season03.rpak
+	SAID00423770662 // settings/itemflav/battlepass/season04.rpak
+	SAID01727937125 // settings/itemflav/battlepass/season05.rpak
+	SAID00681462556 // settings/itemflav/battlepass/season06.rpak
+	SAID01914132855 // settings/itemflav/battlepass/season07.rpak
+	SAID00093464144 // settings/itemflav/battlepass/season08.rpak
+	SAID01670046124 // settings/itemflav/battlepass/season09.rpak
+	SAID01894614717 // settings/itemflav/battlepass/season10.rpak
+	SAID00445086229 // settings/itemflav/battlepass/season11.rpak
+	SAID00735560801 // settings/itemflav/battlepass/season12.rpak
+	SAID00260688408 // settings/itemflav/battlepass/season13.rpak
+	SAID00295370865 // settings/itemflav/battlepass/season14.rpak
+	SAID00299677906 // settings/itemflav/battlepass/season15.rpak
+	SAID01851062701 // settings/itemflav/battlepass/season16.rpak
+	SAID01809425936 // settings/itemflav/battlepass/season17.rpak
+	SAID01574973962 // settings/itemflav/battlepass/season18.rpak
+$ENUM_END
+
+// All season quests.
+$ENUM_START eQuestFlavor
+	SAID00871160704 // settings/itemflav/quest/season09.rpak
+	SAID02019265585 // settings/itemflav/quest/season10.rpak
+	SAID02104205426 // settings/itemflav/quest/season11.rpak
+	SAID00493824547 // settings/itemflav/quest/season12.rpak
+	SAID00990593744 // settings/itemflav/quest/season13.rpak
+	SAID00130232232 // settings/itemflav/quest/season14.rpak
+	SAID01527750958 // settings/itemflav/quest/season15.rpak
+	SAID00070721943 // settings/itemflav/quest/season16.rpak
+	SAID01486156733 // settings/itemflav/quest/season17.rpak
+	SAID00174598357 // settings/itemflav/quest/season18.rpak
+$ENUM_END
+
+// All the weapon stats categories.
+$ENUM_START eWeaponStatCategory
+	smg
+	pistol
+	sniper
+	lmg
+	ar
+	shotgun
+	marksman
+	crate_unique
+$ENUM_END
+
+// All the mode flavors that are registered in the game.
+$ENUM_START eModesFlavors
+	arenas
+	winter_express
+	shadowroyale
+	control
+	gungame
+	ftdm
+	hardcore_survival
+	date_night
+	heatwave
+	armeddangerous
+	swat
+	aprilfools_s16
+$ENUM_END
+
+// 
+$STRUCT_START sQueuedRewardData
+	bool rewardAcknowledged
+	int rewardGUIDs[1]
+	bool rewardGiven
+	int rewardQuantities[1]
+	int sourceGUID
+	int sourceGUID_extraData
+$STRUCT_END
+
+// Sequence Rewards for Entitlements with stackable items
+$STRUCT_START sEntitlementsSequenceRewards
+	int entitlement_amazon_drop_26_SequenceRewardVariable
+	int entitlement_amazon_drop_27_SequenceRewardVariable
+	int entitlement_amazon_drop_28_SequenceRewardVariable
+	int entitlement_amazon_drop_29_SequenceRewardVariable
+	int entitlement_amazon_drop_30_SequenceRewardVariable
+	int entitlement_twitch_drops_s16_community_03_SequenceRewardVariable
+	int entitlement_twitch_drops_s16_community_06_SequenceRewardVariable
+	int entitlement_twitch_drops_s16_community_09_SequenceRewardVariable
+	int entitlement_twitch_drops_s16_community_12_SequenceRewardVariable
+$STRUCT_END
+
+// All loadout fields registered by script-func RegisterLoadoutSlot.
+$STRUCT_START sLoadoutsData
+// ! general
+	int character_selection
+	int injector_sticker_0
+	int loadscreen_selection
+	int loadscreen_selection_fav00
+	int loadscreen_selection_fav01
+	int loadscreen_selection_fav02
+	int loadscreen_selection_fav03
+	int loadscreen_selection_fav04
+	int loadscreen_selection_fav05
+	int loadscreen_selection_fav06
+	int loadscreen_selection_fav07
+	int music_pack_selection
+	int music_pack_selection_fav00
+	int music_pack_selection_fav01
+	int music_pack_selection_fav02
+	int music_pack_selection_fav03
+	int music_pack_selection_fav04
+	int music_pack_selection_fav05
+	int music_pack_selection_fav06
+	int music_pack_selection_fav07
+	int phoenix_kit_sticker_0
+	int phoenix_kit_sticker_1
+	int phoenix_kit_sticker_2
+	int shield_battery_sticker_0
+	int shield_battery_sticker_1
+	int shield_battery_sticker_2
+	int shield_cell_sticker_0
+	int shield_cell_sticker_1
+	int shield_cell_sticker_2
+	int skydive_trail
+// character SAID00064207844
+	int character_execution_for_SAID00064207844
+	int character_intro_quip_for_SAID00064207844
+	int character_kill_quip_for_SAID00064207844
+	int character_meleeskin_for_SAID00064207844
+	int character_skin_for_SAID00064207844
+	int character_skin_for_SAID00064207844_fav00
+	int character_skin_for_SAID00064207844_fav01
+	int character_skin_for_SAID00064207844_fav02
+	int character_skin_for_SAID00064207844_fav03
+	int character_skin_for_SAID00064207844_fav04
+	int character_skin_for_SAID00064207844_fav05
+	int character_skin_for_SAID00064207844_fav06
+	int character_skin_for_SAID00064207844_fav07
+	int character_skydive_emote_0_for_SAID00064207844
+	int character_skydive_emote_1_for_SAID00064207844
+	int character_skydive_emote_2_for_SAID00064207844
+	int character_skydive_emote_3_for_SAID00064207844
+	int character_skydive_emote_4_for_SAID00064207844
+	int character_skydive_emote_5_for_SAID00064207844
+	int character_skydive_emote_6_for_SAID00064207844
+	int character_skydive_emote_7_for_SAID00064207844
+	int favoredQuip_0_for_SAID00064207844
+	int favoredQuip_1_for_SAID00064207844
+	int favoredQuip_2_for_SAID00064207844
+	int favoredQuip_3_for_SAID00064207844
+	int gcard_badge_0_for_SAID00064207844
+	int gcard_badge_0_tier_for_SAID00064207844
+	int gcard_badge_1_for_SAID00064207844
+	int gcard_badge_1_tier_for_SAID00064207844
+	int gcard_badge_2_for_SAID00064207844
+	int gcard_badge_2_tier_for_SAID00064207844
+	int gcard_frame_for_SAID00064207844
+	int gcard_stance_for_SAID00064207844
+	int gcard_tracker_0_for_SAID00064207844
+	int gcard_tracker_0_value_for_SAID00064207844
+	int gcard_tracker_1_for_SAID00064207844
+	int gcard_tracker_1_value_for_SAID00064207844
+	int gcard_tracker_2_for_SAID00064207844
+	int gcard_tracker_2_value_for_SAID00064207844
+	int quips_0_for_SAID00064207844
+	int quips_1_for_SAID00064207844
+	int quips_2_for_SAID00064207844
+	int quips_3_for_SAID00064207844
+	int quips_4_for_SAID00064207844
+	int quips_5_for_SAID00064207844
+	int quips_6_for_SAID00064207844
+	int quips_7_for_SAID00064207844
+// character SAID00080232848
+	int character_execution_for_SAID00080232848
+	int character_intro_quip_for_SAID00080232848
+	int character_kill_quip_for_SAID00080232848
+	int character_meleeskin_for_SAID00080232848
+	int character_skin_for_SAID00080232848
+	int character_skin_for_SAID00080232848_fav00
+	int character_skin_for_SAID00080232848_fav01
+	int character_skin_for_SAID00080232848_fav02
+	int character_skin_for_SAID00080232848_fav03
+	int character_skin_for_SAID00080232848_fav04
+	int character_skin_for_SAID00080232848_fav05
+	int character_skin_for_SAID00080232848_fav06
+	int character_skin_for_SAID00080232848_fav07
+	int character_skydive_emote_0_for_SAID00080232848
+	int character_skydive_emote_1_for_SAID00080232848
+	int character_skydive_emote_2_for_SAID00080232848
+	int character_skydive_emote_3_for_SAID00080232848
+	int character_skydive_emote_4_for_SAID00080232848
+	int character_skydive_emote_5_for_SAID00080232848
+	int character_skydive_emote_6_for_SAID00080232848
+	int character_skydive_emote_7_for_SAID00080232848
+	int favoredQuip_0_for_SAID00080232848
+	int favoredQuip_1_for_SAID00080232848
+	int favoredQuip_2_for_SAID00080232848
+	int favoredQuip_3_for_SAID00080232848
+	int gcard_badge_0_for_SAID00080232848
+	int gcard_badge_0_tier_for_SAID00080232848
+	int gcard_badge_1_for_SAID00080232848
+	int gcard_badge_1_tier_for_SAID00080232848
+	int gcard_badge_2_for_SAID00080232848
+	int gcard_badge_2_tier_for_SAID00080232848
+	int gcard_frame_for_SAID00080232848
+	int gcard_stance_for_SAID00080232848
+	int gcard_tracker_0_for_SAID00080232848
+	int gcard_tracker_0_value_for_SAID00080232848
+	int gcard_tracker_1_for_SAID00080232848
+	int gcard_tracker_1_value_for_SAID00080232848
+	int gcard_tracker_2_for_SAID00080232848
+	int gcard_tracker_2_value_for_SAID00080232848
+	int quips_0_for_SAID00080232848
+	int quips_1_for_SAID00080232848
+	int quips_2_for_SAID00080232848
+	int quips_3_for_SAID00080232848
+	int quips_4_for_SAID00080232848
+	int quips_5_for_SAID00080232848
+	int quips_6_for_SAID00080232848
+	int quips_7_for_SAID00080232848
+// character SAID00088599337
+	int character_execution_for_SAID00088599337
+	int character_intro_quip_for_SAID00088599337
+	int character_kill_quip_for_SAID00088599337
+	int character_meleeskin_for_SAID00088599337
+	int character_skin_for_SAID00088599337
+	int character_skin_for_SAID00088599337_fav00
+	int character_skin_for_SAID00088599337_fav01
+	int character_skin_for_SAID00088599337_fav02
+	int character_skin_for_SAID00088599337_fav03
+	int character_skin_for_SAID00088599337_fav04
+	int character_skin_for_SAID00088599337_fav05
+	int character_skin_for_SAID00088599337_fav06
+	int character_skin_for_SAID00088599337_fav07
+	int character_skydive_emote_0_for_SAID00088599337
+	int character_skydive_emote_1_for_SAID00088599337
+	int character_skydive_emote_2_for_SAID00088599337
+	int character_skydive_emote_3_for_SAID00088599337
+	int character_skydive_emote_4_for_SAID00088599337
+	int character_skydive_emote_5_for_SAID00088599337
+	int character_skydive_emote_6_for_SAID00088599337
+	int character_skydive_emote_7_for_SAID00088599337
+	int favoredQuip_0_for_SAID00088599337
+	int favoredQuip_1_for_SAID00088599337
+	int favoredQuip_2_for_SAID00088599337
+	int favoredQuip_3_for_SAID00088599337
+	int gcard_badge_0_for_SAID00088599337
+	int gcard_badge_0_tier_for_SAID00088599337
+	int gcard_badge_1_for_SAID00088599337
+	int gcard_badge_1_tier_for_SAID00088599337
+	int gcard_badge_2_for_SAID00088599337
+	int gcard_badge_2_tier_for_SAID00088599337
+	int gcard_frame_for_SAID00088599337
+	int gcard_stance_for_SAID00088599337
+	int gcard_tracker_0_for_SAID00088599337
+	int gcard_tracker_0_value_for_SAID00088599337
+	int gcard_tracker_1_for_SAID00088599337
+	int gcard_tracker_1_value_for_SAID00088599337
+	int gcard_tracker_2_for_SAID00088599337
+	int gcard_tracker_2_value_for_SAID00088599337
+	int quips_0_for_SAID00088599337
+	int quips_1_for_SAID00088599337
+	int quips_2_for_SAID00088599337
+	int quips_3_for_SAID00088599337
+	int quips_4_for_SAID00088599337
+	int quips_5_for_SAID00088599337
+	int quips_6_for_SAID00088599337
+	int quips_7_for_SAID00088599337
+// character SAID00126647596
+	int character_execution_for_SAID00126647596
+	int character_intro_quip_for_SAID00126647596
+	int character_kill_quip_for_SAID00126647596
+	int character_meleeskin_for_SAID00126647596
+	int character_skin_for_SAID00126647596
+	int character_skin_for_SAID00126647596_fav00
+	int character_skin_for_SAID00126647596_fav01
+	int character_skin_for_SAID00126647596_fav02
+	int character_skin_for_SAID00126647596_fav03
+	int character_skin_for_SAID00126647596_fav04
+	int character_skin_for_SAID00126647596_fav05
+	int character_skin_for_SAID00126647596_fav06
+	int character_skin_for_SAID00126647596_fav07
+	int character_skydive_emote_0_for_SAID00126647596
+	int character_skydive_emote_1_for_SAID00126647596
+	int character_skydive_emote_2_for_SAID00126647596
+	int character_skydive_emote_3_for_SAID00126647596
+	int character_skydive_emote_4_for_SAID00126647596
+	int character_skydive_emote_5_for_SAID00126647596
+	int character_skydive_emote_6_for_SAID00126647596
+	int character_skydive_emote_7_for_SAID00126647596
+	int favoredQuip_0_for_SAID00126647596
+	int favoredQuip_1_for_SAID00126647596
+	int favoredQuip_2_for_SAID00126647596
+	int favoredQuip_3_for_SAID00126647596
+	int gcard_badge_0_for_SAID00126647596
+	int gcard_badge_0_tier_for_SAID00126647596
+	int gcard_badge_1_for_SAID00126647596
+	int gcard_badge_1_tier_for_SAID00126647596
+	int gcard_badge_2_for_SAID00126647596
+	int gcard_badge_2_tier_for_SAID00126647596
+	int gcard_frame_for_SAID00126647596
+	int gcard_stance_for_SAID00126647596
+	int gcard_tracker_0_for_SAID00126647596
+	int gcard_tracker_0_value_for_SAID00126647596
+	int gcard_tracker_1_for_SAID00126647596
+	int gcard_tracker_1_value_for_SAID00126647596
+	int gcard_tracker_2_for_SAID00126647596
+	int gcard_tracker_2_value_for_SAID00126647596
+	int quips_0_for_SAID00126647596
+	int quips_1_for_SAID00126647596
+	int quips_2_for_SAID00126647596
+	int quips_3_for_SAID00126647596
+	int quips_4_for_SAID00126647596
+	int quips_5_for_SAID00126647596
+	int quips_6_for_SAID00126647596
+	int quips_7_for_SAID00126647596
+// character SAID00147804686
+	int character_execution_for_SAID00147804686
+	int character_intro_quip_for_SAID00147804686
+	int character_kill_quip_for_SAID00147804686
+	int character_meleeskin_for_SAID00147804686
+	int character_skin_for_SAID00147804686
+	int character_skin_for_SAID00147804686_fav00
+	int character_skin_for_SAID00147804686_fav01
+	int character_skin_for_SAID00147804686_fav02
+	int character_skin_for_SAID00147804686_fav03
+	int character_skin_for_SAID00147804686_fav04
+	int character_skin_for_SAID00147804686_fav05
+	int character_skin_for_SAID00147804686_fav06
+	int character_skin_for_SAID00147804686_fav07
+	int character_skydive_emote_0_for_SAID00147804686
+	int character_skydive_emote_1_for_SAID00147804686
+	int character_skydive_emote_2_for_SAID00147804686
+	int character_skydive_emote_3_for_SAID00147804686
+	int character_skydive_emote_4_for_SAID00147804686
+	int character_skydive_emote_5_for_SAID00147804686
+	int character_skydive_emote_6_for_SAID00147804686
+	int character_skydive_emote_7_for_SAID00147804686
+	int favoredQuip_0_for_SAID00147804686
+	int favoredQuip_1_for_SAID00147804686
+	int favoredQuip_2_for_SAID00147804686
+	int favoredQuip_3_for_SAID00147804686
+	int gcard_badge_0_for_SAID00147804686
+	int gcard_badge_0_tier_for_SAID00147804686
+	int gcard_badge_1_for_SAID00147804686
+	int gcard_badge_1_tier_for_SAID00147804686
+	int gcard_badge_2_for_SAID00147804686
+	int gcard_badge_2_tier_for_SAID00147804686
+	int gcard_frame_for_SAID00147804686
+	int gcard_stance_for_SAID00147804686
+	int gcard_tracker_0_for_SAID00147804686
+	int gcard_tracker_0_value_for_SAID00147804686
+	int gcard_tracker_1_for_SAID00147804686
+	int gcard_tracker_1_value_for_SAID00147804686
+	int gcard_tracker_2_for_SAID00147804686
+	int gcard_tracker_2_value_for_SAID00147804686
+	int quips_0_for_SAID00147804686
+	int quips_1_for_SAID00147804686
+	int quips_2_for_SAID00147804686
+	int quips_3_for_SAID00147804686
+	int quips_4_for_SAID00147804686
+	int quips_5_for_SAID00147804686
+	int quips_6_for_SAID00147804686
+	int quips_7_for_SAID00147804686
+// character SAID00182221730
+	int character_execution_for_SAID00182221730
+	int character_intro_quip_for_SAID00182221730
+	int character_kill_quip_for_SAID00182221730
+	int character_meleeskin_for_SAID00182221730
+	int character_skin_for_SAID00182221730
+	int character_skin_for_SAID00182221730_fav00
+	int character_skin_for_SAID00182221730_fav01
+	int character_skin_for_SAID00182221730_fav02
+	int character_skin_for_SAID00182221730_fav03
+	int character_skin_for_SAID00182221730_fav04
+	int character_skin_for_SAID00182221730_fav05
+	int character_skin_for_SAID00182221730_fav06
+	int character_skin_for_SAID00182221730_fav07
+	int character_skydive_emote_0_for_SAID00182221730
+	int character_skydive_emote_1_for_SAID00182221730
+	int character_skydive_emote_2_for_SAID00182221730
+	int character_skydive_emote_3_for_SAID00182221730
+	int character_skydive_emote_4_for_SAID00182221730
+	int character_skydive_emote_5_for_SAID00182221730
+	int character_skydive_emote_6_for_SAID00182221730
+	int character_skydive_emote_7_for_SAID00182221730
+	int favoredQuip_0_for_SAID00182221730
+	int favoredQuip_1_for_SAID00182221730
+	int favoredQuip_2_for_SAID00182221730
+	int favoredQuip_3_for_SAID00182221730
+	int gcard_badge_0_for_SAID00182221730
+	int gcard_badge_0_tier_for_SAID00182221730
+	int gcard_badge_1_for_SAID00182221730
+	int gcard_badge_1_tier_for_SAID00182221730
+	int gcard_badge_2_for_SAID00182221730
+	int gcard_badge_2_tier_for_SAID00182221730
+	int gcard_frame_for_SAID00182221730
+	int gcard_stance_for_SAID00182221730
+	int gcard_tracker_0_for_SAID00182221730
+	int gcard_tracker_0_value_for_SAID00182221730
+	int gcard_tracker_1_for_SAID00182221730
+	int gcard_tracker_1_value_for_SAID00182221730
+	int gcard_tracker_2_for_SAID00182221730
+	int gcard_tracker_2_value_for_SAID00182221730
+	int quips_0_for_SAID00182221730
+	int quips_1_for_SAID00182221730
+	int quips_2_for_SAID00182221730
+	int quips_3_for_SAID00182221730
+	int quips_4_for_SAID00182221730
+	int quips_5_for_SAID00182221730
+	int quips_6_for_SAID00182221730
+	int quips_7_for_SAID00182221730
+// character SAID00187386164
+	int character_execution_for_SAID00187386164
+	int character_intro_quip_for_SAID00187386164
+	int character_kill_quip_for_SAID00187386164
+	int character_meleeskin_for_SAID00187386164
+	int character_skin_for_SAID00187386164
+	int character_skin_for_SAID00187386164_fav00
+	int character_skin_for_SAID00187386164_fav01
+	int character_skin_for_SAID00187386164_fav02
+	int character_skin_for_SAID00187386164_fav03
+	int character_skin_for_SAID00187386164_fav04
+	int character_skin_for_SAID00187386164_fav05
+	int character_skin_for_SAID00187386164_fav06
+	int character_skin_for_SAID00187386164_fav07
+	int character_skydive_emote_0_for_SAID00187386164
+	int character_skydive_emote_1_for_SAID00187386164
+	int character_skydive_emote_2_for_SAID00187386164
+	int character_skydive_emote_3_for_SAID00187386164
+	int character_skydive_emote_4_for_SAID00187386164
+	int character_skydive_emote_5_for_SAID00187386164
+	int character_skydive_emote_6_for_SAID00187386164
+	int character_skydive_emote_7_for_SAID00187386164
+	int favoredQuip_0_for_SAID00187386164
+	int favoredQuip_1_for_SAID00187386164
+	int favoredQuip_2_for_SAID00187386164
+	int favoredQuip_3_for_SAID00187386164
+	int gcard_badge_0_for_SAID00187386164
+	int gcard_badge_0_tier_for_SAID00187386164
+	int gcard_badge_1_for_SAID00187386164
+	int gcard_badge_1_tier_for_SAID00187386164
+	int gcard_badge_2_for_SAID00187386164
+	int gcard_badge_2_tier_for_SAID00187386164
+	int gcard_frame_for_SAID00187386164
+	int gcard_stance_for_SAID00187386164
+	int gcard_tracker_0_for_SAID00187386164
+	int gcard_tracker_0_value_for_SAID00187386164
+	int gcard_tracker_1_for_SAID00187386164
+	int gcard_tracker_1_value_for_SAID00187386164
+	int gcard_tracker_2_for_SAID00187386164
+	int gcard_tracker_2_value_for_SAID00187386164
+	int quips_0_for_SAID00187386164
+	int quips_1_for_SAID00187386164
+	int quips_2_for_SAID00187386164
+	int quips_3_for_SAID00187386164
+	int quips_4_for_SAID00187386164
+	int quips_5_for_SAID00187386164
+	int quips_6_for_SAID00187386164
+	int quips_7_for_SAID00187386164
+// character SAID00216194192
+	int character_execution_for_SAID00216194192
+	int character_intro_quip_for_SAID00216194192
+	int character_kill_quip_for_SAID00216194192
+	int character_meleeskin_for_SAID00216194192
+	int character_skin_for_SAID00216194192
+	int character_skin_for_SAID00216194192_fav00
+	int character_skin_for_SAID00216194192_fav01
+	int character_skin_for_SAID00216194192_fav02
+	int character_skin_for_SAID00216194192_fav03
+	int character_skin_for_SAID00216194192_fav04
+	int character_skin_for_SAID00216194192_fav05
+	int character_skin_for_SAID00216194192_fav06
+	int character_skin_for_SAID00216194192_fav07
+	int character_skydive_emote_0_for_SAID00216194192
+	int character_skydive_emote_1_for_SAID00216194192
+	int character_skydive_emote_2_for_SAID00216194192
+	int character_skydive_emote_3_for_SAID00216194192
+	int character_skydive_emote_4_for_SAID00216194192
+	int character_skydive_emote_5_for_SAID00216194192
+	int character_skydive_emote_6_for_SAID00216194192
+	int character_skydive_emote_7_for_SAID00216194192
+	int favoredQuip_0_for_SAID00216194192
+	int favoredQuip_1_for_SAID00216194192
+	int favoredQuip_2_for_SAID00216194192
+	int favoredQuip_3_for_SAID00216194192
+	int gcard_badge_0_for_SAID00216194192
+	int gcard_badge_0_tier_for_SAID00216194192
+	int gcard_badge_1_for_SAID00216194192
+	int gcard_badge_1_tier_for_SAID00216194192
+	int gcard_badge_2_for_SAID00216194192
+	int gcard_badge_2_tier_for_SAID00216194192
+	int gcard_frame_for_SAID00216194192
+	int gcard_stance_for_SAID00216194192
+	int gcard_tracker_0_for_SAID00216194192
+	int gcard_tracker_0_value_for_SAID00216194192
+	int gcard_tracker_1_for_SAID00216194192
+	int gcard_tracker_1_value_for_SAID00216194192
+	int gcard_tracker_2_for_SAID00216194192
+	int gcard_tracker_2_value_for_SAID00216194192
+	int quips_0_for_SAID00216194192
+	int quips_1_for_SAID00216194192
+	int quips_2_for_SAID00216194192
+	int quips_3_for_SAID00216194192
+	int quips_4_for_SAID00216194192
+	int quips_5_for_SAID00216194192
+	int quips_6_for_SAID00216194192
+	int quips_7_for_SAID00216194192
+// character SAID00405279270
+	int character_execution_for_SAID00405279270
+	int character_intro_quip_for_SAID00405279270
+	int character_kill_quip_for_SAID00405279270
+	int character_meleeskin_for_SAID00405279270
+	int character_skin_for_SAID00405279270
+	int character_skin_for_SAID00405279270_fav00
+	int character_skin_for_SAID00405279270_fav01
+	int character_skin_for_SAID00405279270_fav02
+	int character_skin_for_SAID00405279270_fav03
+	int character_skin_for_SAID00405279270_fav04
+	int character_skin_for_SAID00405279270_fav05
+	int character_skin_for_SAID00405279270_fav06
+	int character_skin_for_SAID00405279270_fav07
+	int character_skydive_emote_0_for_SAID00405279270
+	int character_skydive_emote_1_for_SAID00405279270
+	int character_skydive_emote_2_for_SAID00405279270
+	int character_skydive_emote_3_for_SAID00405279270
+	int character_skydive_emote_4_for_SAID00405279270
+	int character_skydive_emote_5_for_SAID00405279270
+	int character_skydive_emote_6_for_SAID00405279270
+	int character_skydive_emote_7_for_SAID00405279270
+	int favoredQuip_0_for_SAID00405279270
+	int favoredQuip_1_for_SAID00405279270
+	int favoredQuip_2_for_SAID00405279270
+	int favoredQuip_3_for_SAID00405279270
+	int gcard_badge_0_for_SAID00405279270
+	int gcard_badge_0_tier_for_SAID00405279270
+	int gcard_badge_1_for_SAID00405279270
+	int gcard_badge_1_tier_for_SAID00405279270
+	int gcard_badge_2_for_SAID00405279270
+	int gcard_badge_2_tier_for_SAID00405279270
+	int gcard_frame_for_SAID00405279270
+	int gcard_stance_for_SAID00405279270
+	int gcard_tracker_0_for_SAID00405279270
+	int gcard_tracker_0_value_for_SAID00405279270
+	int gcard_tracker_1_for_SAID00405279270
+	int gcard_tracker_1_value_for_SAID00405279270
+	int gcard_tracker_2_for_SAID00405279270
+	int gcard_tracker_2_value_for_SAID00405279270
+	int quips_0_for_SAID00405279270
+	int quips_1_for_SAID00405279270
+	int quips_2_for_SAID00405279270
+	int quips_3_for_SAID00405279270
+	int quips_4_for_SAID00405279270
+	int quips_5_for_SAID00405279270
+	int quips_6_for_SAID00405279270
+	int quips_7_for_SAID00405279270
+// character SAID00435256162
+	int character_execution_for_SAID00435256162
+	int character_intro_quip_for_SAID00435256162
+	int character_kill_quip_for_SAID00435256162
+	int character_meleeskin_for_SAID00435256162
+	int character_skin_for_SAID00435256162
+	int character_skin_for_SAID00435256162_fav00
+	int character_skin_for_SAID00435256162_fav01
+	int character_skin_for_SAID00435256162_fav02
+	int character_skin_for_SAID00435256162_fav03
+	int character_skin_for_SAID00435256162_fav04
+	int character_skin_for_SAID00435256162_fav05
+	int character_skin_for_SAID00435256162_fav06
+	int character_skin_for_SAID00435256162_fav07
+	int character_skydive_emote_0_for_SAID00435256162
+	int character_skydive_emote_1_for_SAID00435256162
+	int character_skydive_emote_2_for_SAID00435256162
+	int character_skydive_emote_3_for_SAID00435256162
+	int character_skydive_emote_4_for_SAID00435256162
+	int character_skydive_emote_5_for_SAID00435256162
+	int character_skydive_emote_6_for_SAID00435256162
+	int character_skydive_emote_7_for_SAID00435256162
+	int favoredQuip_0_for_SAID00435256162
+	int favoredQuip_1_for_SAID00435256162
+	int favoredQuip_2_for_SAID00435256162
+	int favoredQuip_3_for_SAID00435256162
+	int gcard_badge_0_for_SAID00435256162
+	int gcard_badge_0_tier_for_SAID00435256162
+	int gcard_badge_1_for_SAID00435256162
+	int gcard_badge_1_tier_for_SAID00435256162
+	int gcard_badge_2_for_SAID00435256162
+	int gcard_badge_2_tier_for_SAID00435256162
+	int gcard_frame_for_SAID00435256162
+	int gcard_stance_for_SAID00435256162
+	int gcard_tracker_0_for_SAID00435256162
+	int gcard_tracker_0_value_for_SAID00435256162
+	int gcard_tracker_1_for_SAID00435256162
+	int gcard_tracker_1_value_for_SAID00435256162
+	int gcard_tracker_2_for_SAID00435256162
+	int gcard_tracker_2_value_for_SAID00435256162
+	int quips_0_for_SAID00435256162
+	int quips_1_for_SAID00435256162
+	int quips_2_for_SAID00435256162
+	int quips_3_for_SAID00435256162
+	int quips_4_for_SAID00435256162
+	int quips_5_for_SAID00435256162
+	int quips_6_for_SAID00435256162
+	int quips_7_for_SAID00435256162
+// character SAID00496516687
+	int character_execution_for_SAID00496516687
+	int character_intro_quip_for_SAID00496516687
+	int character_kill_quip_for_SAID00496516687
+	int character_meleeskin_for_SAID00496516687
+	int character_skin_for_SAID00496516687
+	int character_skin_for_SAID00496516687_fav00
+	int character_skin_for_SAID00496516687_fav01
+	int character_skin_for_SAID00496516687_fav02
+	int character_skin_for_SAID00496516687_fav03
+	int character_skin_for_SAID00496516687_fav04
+	int character_skin_for_SAID00496516687_fav05
+	int character_skin_for_SAID00496516687_fav06
+	int character_skin_for_SAID00496516687_fav07
+	int character_skydive_emote_0_for_SAID00496516687
+	int character_skydive_emote_1_for_SAID00496516687
+	int character_skydive_emote_2_for_SAID00496516687
+	int character_skydive_emote_3_for_SAID00496516687
+	int character_skydive_emote_4_for_SAID00496516687
+	int character_skydive_emote_5_for_SAID00496516687
+	int character_skydive_emote_6_for_SAID00496516687
+	int character_skydive_emote_7_for_SAID00496516687
+	int favoredQuip_0_for_SAID00496516687
+	int favoredQuip_1_for_SAID00496516687
+	int favoredQuip_2_for_SAID00496516687
+	int favoredQuip_3_for_SAID00496516687
+	int gcard_badge_0_for_SAID00496516687
+	int gcard_badge_0_tier_for_SAID00496516687
+	int gcard_badge_1_for_SAID00496516687
+	int gcard_badge_1_tier_for_SAID00496516687
+	int gcard_badge_2_for_SAID00496516687
+	int gcard_badge_2_tier_for_SAID00496516687
+	int gcard_frame_for_SAID00496516687
+	int gcard_stance_for_SAID00496516687
+	int gcard_tracker_0_for_SAID00496516687
+	int gcard_tracker_0_value_for_SAID00496516687
+	int gcard_tracker_1_for_SAID00496516687
+	int gcard_tracker_1_value_for_SAID00496516687
+	int gcard_tracker_2_for_SAID00496516687
+	int gcard_tracker_2_value_for_SAID00496516687
+	int quips_0_for_SAID00496516687
+	int quips_1_for_SAID00496516687
+	int quips_2_for_SAID00496516687
+	int quips_3_for_SAID00496516687
+	int quips_4_for_SAID00496516687
+	int quips_5_for_SAID00496516687
+	int quips_6_for_SAID00496516687
+	int quips_7_for_SAID00496516687
+// character SAID00596489740
+	int character_execution_for_SAID00596489740
+	int character_intro_quip_for_SAID00596489740
+	int character_kill_quip_for_SAID00596489740
+	int character_meleeskin_for_SAID00596489740
+	int character_skin_for_SAID00596489740
+	int character_skin_for_SAID00596489740_fav00
+	int character_skin_for_SAID00596489740_fav01
+	int character_skin_for_SAID00596489740_fav02
+	int character_skin_for_SAID00596489740_fav03
+	int character_skin_for_SAID00596489740_fav04
+	int character_skin_for_SAID00596489740_fav05
+	int character_skin_for_SAID00596489740_fav06
+	int character_skin_for_SAID00596489740_fav07
+	int character_skydive_emote_0_for_SAID00596489740
+	int character_skydive_emote_1_for_SAID00596489740
+	int character_skydive_emote_2_for_SAID00596489740
+	int character_skydive_emote_3_for_SAID00596489740
+	int character_skydive_emote_4_for_SAID00596489740
+	int character_skydive_emote_5_for_SAID00596489740
+	int character_skydive_emote_6_for_SAID00596489740
+	int character_skydive_emote_7_for_SAID00596489740
+	int favoredQuip_0_for_SAID00596489740
+	int favoredQuip_1_for_SAID00596489740
+	int favoredQuip_2_for_SAID00596489740
+	int favoredQuip_3_for_SAID00596489740
+	int gcard_badge_0_for_SAID00596489740
+	int gcard_badge_0_tier_for_SAID00596489740
+	int gcard_badge_1_for_SAID00596489740
+	int gcard_badge_1_tier_for_SAID00596489740
+	int gcard_badge_2_for_SAID00596489740
+	int gcard_badge_2_tier_for_SAID00596489740
+	int gcard_frame_for_SAID00596489740
+	int gcard_stance_for_SAID00596489740
+	int gcard_tracker_0_for_SAID00596489740
+	int gcard_tracker_0_value_for_SAID00596489740
+	int gcard_tracker_1_for_SAID00596489740
+	int gcard_tracker_1_value_for_SAID00596489740
+	int gcard_tracker_2_for_SAID00596489740
+	int gcard_tracker_2_value_for_SAID00596489740
+	int quips_0_for_SAID00596489740
+	int quips_1_for_SAID00596489740
+	int quips_2_for_SAID00596489740
+	int quips_3_for_SAID00596489740
+	int quips_4_for_SAID00596489740
+	int quips_5_for_SAID00596489740
+	int quips_6_for_SAID00596489740
+	int quips_7_for_SAID00596489740
+// character SAID00725342087
+	int character_execution_for_SAID00725342087
+	int character_intro_quip_for_SAID00725342087
+	int character_kill_quip_for_SAID00725342087
+	int character_meleeskin_for_SAID00725342087
+	int character_skin_for_SAID00725342087
+	int character_skin_for_SAID00725342087_fav00
+	int character_skin_for_SAID00725342087_fav01
+	int character_skin_for_SAID00725342087_fav02
+	int character_skin_for_SAID00725342087_fav03
+	int character_skin_for_SAID00725342087_fav04
+	int character_skin_for_SAID00725342087_fav05
+	int character_skin_for_SAID00725342087_fav06
+	int character_skin_for_SAID00725342087_fav07
+	int character_skydive_emote_0_for_SAID00725342087
+	int character_skydive_emote_1_for_SAID00725342087
+	int character_skydive_emote_2_for_SAID00725342087
+	int character_skydive_emote_3_for_SAID00725342087
+	int character_skydive_emote_4_for_SAID00725342087
+	int character_skydive_emote_5_for_SAID00725342087
+	int character_skydive_emote_6_for_SAID00725342087
+	int character_skydive_emote_7_for_SAID00725342087
+	int favoredQuip_0_for_SAID00725342087
+	int favoredQuip_1_for_SAID00725342087
+	int favoredQuip_2_for_SAID00725342087
+	int favoredQuip_3_for_SAID00725342087
+	int gcard_badge_0_for_SAID00725342087
+	int gcard_badge_0_tier_for_SAID00725342087
+	int gcard_badge_1_for_SAID00725342087
+	int gcard_badge_1_tier_for_SAID00725342087
+	int gcard_badge_2_for_SAID00725342087
+	int gcard_badge_2_tier_for_SAID00725342087
+	int gcard_frame_for_SAID00725342087
+	int gcard_stance_for_SAID00725342087
+	int gcard_tracker_0_for_SAID00725342087
+	int gcard_tracker_0_value_for_SAID00725342087
+	int gcard_tracker_1_for_SAID00725342087
+	int gcard_tracker_1_value_for_SAID00725342087
+	int gcard_tracker_2_for_SAID00725342087
+	int gcard_tracker_2_value_for_SAID00725342087
+	int quips_0_for_SAID00725342087
+	int quips_1_for_SAID00725342087
+	int quips_2_for_SAID00725342087
+	int quips_3_for_SAID00725342087
+	int quips_4_for_SAID00725342087
+	int quips_5_for_SAID00725342087
+	int quips_6_for_SAID00725342087
+	int quips_7_for_SAID00725342087
+// character SAID00827049897
+	int character_execution_for_SAID00827049897
+	int character_intro_quip_for_SAID00827049897
+	int character_kill_quip_for_SAID00827049897
+	int character_meleeskin_for_SAID00827049897
+	int character_skin_for_SAID00827049897
+	int character_skin_for_SAID00827049897_fav00
+	int character_skin_for_SAID00827049897_fav01
+	int character_skin_for_SAID00827049897_fav02
+	int character_skin_for_SAID00827049897_fav03
+	int character_skin_for_SAID00827049897_fav04
+	int character_skin_for_SAID00827049897_fav05
+	int character_skin_for_SAID00827049897_fav06
+	int character_skin_for_SAID00827049897_fav07
+	int character_skydive_emote_0_for_SAID00827049897
+	int character_skydive_emote_1_for_SAID00827049897
+	int character_skydive_emote_2_for_SAID00827049897
+	int character_skydive_emote_3_for_SAID00827049897
+	int character_skydive_emote_4_for_SAID00827049897
+	int character_skydive_emote_5_for_SAID00827049897
+	int character_skydive_emote_6_for_SAID00827049897
+	int character_skydive_emote_7_for_SAID00827049897
+	int favoredQuip_0_for_SAID00827049897
+	int favoredQuip_1_for_SAID00827049897
+	int favoredQuip_2_for_SAID00827049897
+	int favoredQuip_3_for_SAID00827049897
+	int gcard_badge_0_for_SAID00827049897
+	int gcard_badge_0_tier_for_SAID00827049897
+	int gcard_badge_1_for_SAID00827049897
+	int gcard_badge_1_tier_for_SAID00827049897
+	int gcard_badge_2_for_SAID00827049897
+	int gcard_badge_2_tier_for_SAID00827049897
+	int gcard_frame_for_SAID00827049897
+	int gcard_stance_for_SAID00827049897
+	int gcard_tracker_0_for_SAID00827049897
+	int gcard_tracker_0_value_for_SAID00827049897
+	int gcard_tracker_1_for_SAID00827049897
+	int gcard_tracker_1_value_for_SAID00827049897
+	int gcard_tracker_2_for_SAID00827049897
+	int gcard_tracker_2_value_for_SAID00827049897
+	int quips_0_for_SAID00827049897
+	int quips_1_for_SAID00827049897
+	int quips_2_for_SAID00827049897
+	int quips_3_for_SAID00827049897
+	int quips_4_for_SAID00827049897
+	int quips_5_for_SAID00827049897
+	int quips_6_for_SAID00827049897
+	int quips_7_for_SAID00827049897
+// character SAID00843405508
+	int character_execution_for_SAID00843405508
+	int character_intro_quip_for_SAID00843405508
+	int character_kill_quip_for_SAID00843405508
+	int character_meleeskin_for_SAID00843405508
+	int character_skin_for_SAID00843405508
+	int character_skin_for_SAID00843405508_fav00
+	int character_skin_for_SAID00843405508_fav01
+	int character_skin_for_SAID00843405508_fav02
+	int character_skin_for_SAID00843405508_fav03
+	int character_skin_for_SAID00843405508_fav04
+	int character_skin_for_SAID00843405508_fav05
+	int character_skin_for_SAID00843405508_fav06
+	int character_skin_for_SAID00843405508_fav07
+	int character_skydive_emote_0_for_SAID00843405508
+	int character_skydive_emote_1_for_SAID00843405508
+	int character_skydive_emote_2_for_SAID00843405508
+	int character_skydive_emote_3_for_SAID00843405508
+	int character_skydive_emote_4_for_SAID00843405508
+	int character_skydive_emote_5_for_SAID00843405508
+	int character_skydive_emote_6_for_SAID00843405508
+	int character_skydive_emote_7_for_SAID00843405508
+	int favoredQuip_0_for_SAID00843405508
+	int favoredQuip_1_for_SAID00843405508
+	int favoredQuip_2_for_SAID00843405508
+	int favoredQuip_3_for_SAID00843405508
+	int gcard_badge_0_for_SAID00843405508
+	int gcard_badge_0_tier_for_SAID00843405508
+	int gcard_badge_1_for_SAID00843405508
+	int gcard_badge_1_tier_for_SAID00843405508
+	int gcard_badge_2_for_SAID00843405508
+	int gcard_badge_2_tier_for_SAID00843405508
+	int gcard_frame_for_SAID00843405508
+	int gcard_stance_for_SAID00843405508
+	int gcard_tracker_0_for_SAID00843405508
+	int gcard_tracker_0_value_for_SAID00843405508
+	int gcard_tracker_1_for_SAID00843405508
+	int gcard_tracker_1_value_for_SAID00843405508
+	int gcard_tracker_2_for_SAID00843405508
+	int gcard_tracker_2_value_for_SAID00843405508
+	int quips_0_for_SAID00843405508
+	int quips_1_for_SAID00843405508
+	int quips_2_for_SAID00843405508
+	int quips_3_for_SAID00843405508
+	int quips_4_for_SAID00843405508
+	int quips_5_for_SAID00843405508
+	int quips_6_for_SAID00843405508
+	int quips_7_for_SAID00843405508
+// character SAID00898565421
+	int character_execution_for_SAID00898565421
+	int character_intro_quip_for_SAID00898565421
+	int character_kill_quip_for_SAID00898565421
+	int character_meleeskin_for_SAID00898565421
+	int character_skin_for_SAID00898565421
+	int character_skin_for_SAID00898565421_fav00
+	int character_skin_for_SAID00898565421_fav01
+	int character_skin_for_SAID00898565421_fav02
+	int character_skin_for_SAID00898565421_fav03
+	int character_skin_for_SAID00898565421_fav04
+	int character_skin_for_SAID00898565421_fav05
+	int character_skin_for_SAID00898565421_fav06
+	int character_skin_for_SAID00898565421_fav07
+	int character_skydive_emote_0_for_SAID00898565421
+	int character_skydive_emote_1_for_SAID00898565421
+	int character_skydive_emote_2_for_SAID00898565421
+	int character_skydive_emote_3_for_SAID00898565421
+	int character_skydive_emote_4_for_SAID00898565421
+	int character_skydive_emote_5_for_SAID00898565421
+	int character_skydive_emote_6_for_SAID00898565421
+	int character_skydive_emote_7_for_SAID00898565421
+	int favoredQuip_0_for_SAID00898565421
+	int favoredQuip_1_for_SAID00898565421
+	int favoredQuip_2_for_SAID00898565421
+	int favoredQuip_3_for_SAID00898565421
+	int gcard_badge_0_for_SAID00898565421
+	int gcard_badge_0_tier_for_SAID00898565421
+	int gcard_badge_1_for_SAID00898565421
+	int gcard_badge_1_tier_for_SAID00898565421
+	int gcard_badge_2_for_SAID00898565421
+	int gcard_badge_2_tier_for_SAID00898565421
+	int gcard_frame_for_SAID00898565421
+	int gcard_stance_for_SAID00898565421
+	int gcard_tracker_0_for_SAID00898565421
+	int gcard_tracker_0_value_for_SAID00898565421
+	int gcard_tracker_1_for_SAID00898565421
+	int gcard_tracker_1_value_for_SAID00898565421
+	int gcard_tracker_2_for_SAID00898565421
+	int gcard_tracker_2_value_for_SAID00898565421
+	int quips_0_for_SAID00898565421
+	int quips_1_for_SAID00898565421
+	int quips_2_for_SAID00898565421
+	int quips_3_for_SAID00898565421
+	int quips_4_for_SAID00898565421
+	int quips_5_for_SAID00898565421
+	int quips_6_for_SAID00898565421
+	int quips_7_for_SAID00898565421
+// character SAID00996325304
+	int character_execution_for_SAID00996325304
+	int character_intro_quip_for_SAID00996325304
+	int character_kill_quip_for_SAID00996325304
+	int character_meleeskin_for_SAID00996325304
+	int character_skin_for_SAID00996325304
+	int character_skin_for_SAID00996325304_fav00
+	int character_skin_for_SAID00996325304_fav01
+	int character_skin_for_SAID00996325304_fav02
+	int character_skin_for_SAID00996325304_fav03
+	int character_skin_for_SAID00996325304_fav04
+	int character_skin_for_SAID00996325304_fav05
+	int character_skin_for_SAID00996325304_fav06
+	int character_skin_for_SAID00996325304_fav07
+	int character_skydive_emote_0_for_SAID00996325304
+	int character_skydive_emote_1_for_SAID00996325304
+	int character_skydive_emote_2_for_SAID00996325304
+	int character_skydive_emote_3_for_SAID00996325304
+	int character_skydive_emote_4_for_SAID00996325304
+	int character_skydive_emote_5_for_SAID00996325304
+	int character_skydive_emote_6_for_SAID00996325304
+	int character_skydive_emote_7_for_SAID00996325304
+	int favoredQuip_0_for_SAID00996325304
+	int favoredQuip_1_for_SAID00996325304
+	int favoredQuip_2_for_SAID00996325304
+	int favoredQuip_3_for_SAID00996325304
+	int gcard_badge_0_for_SAID00996325304
+	int gcard_badge_0_tier_for_SAID00996325304
+	int gcard_badge_1_for_SAID00996325304
+	int gcard_badge_1_tier_for_SAID00996325304
+	int gcard_badge_2_for_SAID00996325304
+	int gcard_badge_2_tier_for_SAID00996325304
+	int gcard_frame_for_SAID00996325304
+	int gcard_stance_for_SAID00996325304
+	int gcard_tracker_0_for_SAID00996325304
+	int gcard_tracker_0_value_for_SAID00996325304
+	int gcard_tracker_1_for_SAID00996325304
+	int gcard_tracker_1_value_for_SAID00996325304
+	int gcard_tracker_2_for_SAID00996325304
+	int gcard_tracker_2_value_for_SAID00996325304
+	int quips_0_for_SAID00996325304
+	int quips_1_for_SAID00996325304
+	int quips_2_for_SAID00996325304
+	int quips_3_for_SAID00996325304
+	int quips_4_for_SAID00996325304
+	int quips_5_for_SAID00996325304
+	int quips_6_for_SAID00996325304
+	int quips_7_for_SAID00996325304
+// character SAID01014661899
+	int character_execution_for_SAID01014661899
+	int character_intro_quip_for_SAID01014661899
+	int character_kill_quip_for_SAID01014661899
+	int character_meleeskin_for_SAID01014661899
+	int character_skin_for_SAID01014661899
+	int character_skin_for_SAID01014661899_fav00
+	int character_skin_for_SAID01014661899_fav01
+	int character_skin_for_SAID01014661899_fav02
+	int character_skin_for_SAID01014661899_fav03
+	int character_skin_for_SAID01014661899_fav04
+	int character_skin_for_SAID01014661899_fav05
+	int character_skin_for_SAID01014661899_fav06
+	int character_skin_for_SAID01014661899_fav07
+	int character_skydive_emote_0_for_SAID01014661899
+	int character_skydive_emote_1_for_SAID01014661899
+	int character_skydive_emote_2_for_SAID01014661899
+	int character_skydive_emote_3_for_SAID01014661899
+	int character_skydive_emote_4_for_SAID01014661899
+	int character_skydive_emote_5_for_SAID01014661899
+	int character_skydive_emote_6_for_SAID01014661899
+	int character_skydive_emote_7_for_SAID01014661899
+	int favoredQuip_0_for_SAID01014661899
+	int favoredQuip_1_for_SAID01014661899
+	int favoredQuip_2_for_SAID01014661899
+	int favoredQuip_3_for_SAID01014661899
+	int gcard_badge_0_for_SAID01014661899
+	int gcard_badge_0_tier_for_SAID01014661899
+	int gcard_badge_1_for_SAID01014661899
+	int gcard_badge_1_tier_for_SAID01014661899
+	int gcard_badge_2_for_SAID01014661899
+	int gcard_badge_2_tier_for_SAID01014661899
+	int gcard_frame_for_SAID01014661899
+	int gcard_stance_for_SAID01014661899
+	int gcard_tracker_0_for_SAID01014661899
+	int gcard_tracker_0_value_for_SAID01014661899
+	int gcard_tracker_1_for_SAID01014661899
+	int gcard_tracker_1_value_for_SAID01014661899
+	int gcard_tracker_2_for_SAID01014661899
+	int gcard_tracker_2_value_for_SAID01014661899
+	int quips_0_for_SAID01014661899
+	int quips_1_for_SAID01014661899
+	int quips_2_for_SAID01014661899
+	int quips_3_for_SAID01014661899
+	int quips_4_for_SAID01014661899
+	int quips_5_for_SAID01014661899
+	int quips_6_for_SAID01014661899
+	int quips_7_for_SAID01014661899
+// character SAID01111853120
+	int character_execution_for_SAID01111853120
+	int character_intro_quip_for_SAID01111853120
+	int character_kill_quip_for_SAID01111853120
+	int character_meleeskin_for_SAID01111853120
+	int character_skin_for_SAID01111853120
+	int character_skin_for_SAID01111853120_fav00
+	int character_skin_for_SAID01111853120_fav01
+	int character_skin_for_SAID01111853120_fav02
+	int character_skin_for_SAID01111853120_fav03
+	int character_skin_for_SAID01111853120_fav04
+	int character_skin_for_SAID01111853120_fav05
+	int character_skin_for_SAID01111853120_fav06
+	int character_skin_for_SAID01111853120_fav07
+	int character_skydive_emote_0_for_SAID01111853120
+	int character_skydive_emote_1_for_SAID01111853120
+	int character_skydive_emote_2_for_SAID01111853120
+	int character_skydive_emote_3_for_SAID01111853120
+	int character_skydive_emote_4_for_SAID01111853120
+	int character_skydive_emote_5_for_SAID01111853120
+	int character_skydive_emote_6_for_SAID01111853120
+	int character_skydive_emote_7_for_SAID01111853120
+	int favoredQuip_0_for_SAID01111853120
+	int favoredQuip_1_for_SAID01111853120
+	int favoredQuip_2_for_SAID01111853120
+	int favoredQuip_3_for_SAID01111853120
+	int gcard_badge_0_for_SAID01111853120
+	int gcard_badge_0_tier_for_SAID01111853120
+	int gcard_badge_1_for_SAID01111853120
+	int gcard_badge_1_tier_for_SAID01111853120
+	int gcard_badge_2_for_SAID01111853120
+	int gcard_badge_2_tier_for_SAID01111853120
+	int gcard_frame_for_SAID01111853120
+	int gcard_stance_for_SAID01111853120
+	int gcard_tracker_0_for_SAID01111853120
+	int gcard_tracker_0_value_for_SAID01111853120
+	int gcard_tracker_1_for_SAID01111853120
+	int gcard_tracker_1_value_for_SAID01111853120
+	int gcard_tracker_2_for_SAID01111853120
+	int gcard_tracker_2_value_for_SAID01111853120
+	int quips_0_for_SAID01111853120
+	int quips_1_for_SAID01111853120
+	int quips_2_for_SAID01111853120
+	int quips_3_for_SAID01111853120
+	int quips_4_for_SAID01111853120
+	int quips_5_for_SAID01111853120
+	int quips_6_for_SAID01111853120
+	int quips_7_for_SAID01111853120
+// character SAID01399802246
+	int character_execution_for_SAID01399802246
+	int character_intro_quip_for_SAID01399802246
+	int character_kill_quip_for_SAID01399802246
+	int character_meleeskin_for_SAID01399802246
+	int character_skin_for_SAID01399802246
+	int character_skin_for_SAID01399802246_fav00
+	int character_skin_for_SAID01399802246_fav01
+	int character_skin_for_SAID01399802246_fav02
+	int character_skin_for_SAID01399802246_fav03
+	int character_skin_for_SAID01399802246_fav04
+	int character_skin_for_SAID01399802246_fav05
+	int character_skin_for_SAID01399802246_fav06
+	int character_skin_for_SAID01399802246_fav07
+	int character_skydive_emote_0_for_SAID01399802246
+	int character_skydive_emote_1_for_SAID01399802246
+	int character_skydive_emote_2_for_SAID01399802246
+	int character_skydive_emote_3_for_SAID01399802246
+	int character_skydive_emote_4_for_SAID01399802246
+	int character_skydive_emote_5_for_SAID01399802246
+	int character_skydive_emote_6_for_SAID01399802246
+	int character_skydive_emote_7_for_SAID01399802246
+	int favoredQuip_0_for_SAID01399802246
+	int favoredQuip_1_for_SAID01399802246
+	int favoredQuip_2_for_SAID01399802246
+	int favoredQuip_3_for_SAID01399802246
+	int gcard_badge_0_for_SAID01399802246
+	int gcard_badge_0_tier_for_SAID01399802246
+	int gcard_badge_1_for_SAID01399802246
+	int gcard_badge_1_tier_for_SAID01399802246
+	int gcard_badge_2_for_SAID01399802246
+	int gcard_badge_2_tier_for_SAID01399802246
+	int gcard_frame_for_SAID01399802246
+	int gcard_stance_for_SAID01399802246
+	int gcard_tracker_0_for_SAID01399802246
+	int gcard_tracker_0_value_for_SAID01399802246
+	int gcard_tracker_1_for_SAID01399802246
+	int gcard_tracker_1_value_for_SAID01399802246
+	int gcard_tracker_2_for_SAID01399802246
+	int gcard_tracker_2_value_for_SAID01399802246
+	int quips_0_for_SAID01399802246
+	int quips_1_for_SAID01399802246
+	int quips_2_for_SAID01399802246
+	int quips_3_for_SAID01399802246
+	int quips_4_for_SAID01399802246
+	int quips_5_for_SAID01399802246
+	int quips_6_for_SAID01399802246
+	int quips_7_for_SAID01399802246
+// character SAID01409694078
+	int character_execution_for_SAID01409694078
+	int character_intro_quip_for_SAID01409694078
+	int character_kill_quip_for_SAID01409694078
+	int character_meleeskin_for_SAID01409694078
+	int character_skin_for_SAID01409694078
+	int character_skin_for_SAID01409694078_fav00
+	int character_skin_for_SAID01409694078_fav01
+	int character_skin_for_SAID01409694078_fav02
+	int character_skin_for_SAID01409694078_fav03
+	int character_skin_for_SAID01409694078_fav04
+	int character_skin_for_SAID01409694078_fav05
+	int character_skin_for_SAID01409694078_fav06
+	int character_skin_for_SAID01409694078_fav07
+	int character_skydive_emote_0_for_SAID01409694078
+	int character_skydive_emote_1_for_SAID01409694078
+	int character_skydive_emote_2_for_SAID01409694078
+	int character_skydive_emote_3_for_SAID01409694078
+	int character_skydive_emote_4_for_SAID01409694078
+	int character_skydive_emote_5_for_SAID01409694078
+	int character_skydive_emote_6_for_SAID01409694078
+	int character_skydive_emote_7_for_SAID01409694078
+	int favoredQuip_0_for_SAID01409694078
+	int favoredQuip_1_for_SAID01409694078
+	int favoredQuip_2_for_SAID01409694078
+	int favoredQuip_3_for_SAID01409694078
+	int gcard_badge_0_for_SAID01409694078
+	int gcard_badge_0_tier_for_SAID01409694078
+	int gcard_badge_1_for_SAID01409694078
+	int gcard_badge_1_tier_for_SAID01409694078
+	int gcard_badge_2_for_SAID01409694078
+	int gcard_badge_2_tier_for_SAID01409694078
+	int gcard_frame_for_SAID01409694078
+	int gcard_stance_for_SAID01409694078
+	int gcard_tracker_0_for_SAID01409694078
+	int gcard_tracker_0_value_for_SAID01409694078
+	int gcard_tracker_1_for_SAID01409694078
+	int gcard_tracker_1_value_for_SAID01409694078
+	int gcard_tracker_2_for_SAID01409694078
+	int gcard_tracker_2_value_for_SAID01409694078
+	int quips_0_for_SAID01409694078
+	int quips_1_for_SAID01409694078
+	int quips_2_for_SAID01409694078
+	int quips_3_for_SAID01409694078
+	int quips_4_for_SAID01409694078
+	int quips_5_for_SAID01409694078
+	int quips_6_for_SAID01409694078
+	int quips_7_for_SAID01409694078
+// character SAID01464849662
+	int character_execution_for_SAID01464849662
+	int character_intro_quip_for_SAID01464849662
+	int character_kill_quip_for_SAID01464849662
+	int character_meleeskin_for_SAID01464849662
+	int character_skin_for_SAID01464849662
+	int character_skin_for_SAID01464849662_fav00
+	int character_skin_for_SAID01464849662_fav01
+	int character_skin_for_SAID01464849662_fav02
+	int character_skin_for_SAID01464849662_fav03
+	int character_skin_for_SAID01464849662_fav04
+	int character_skin_for_SAID01464849662_fav05
+	int character_skin_for_SAID01464849662_fav06
+	int character_skin_for_SAID01464849662_fav07
+	int character_skydive_emote_0_for_SAID01464849662
+	int character_skydive_emote_1_for_SAID01464849662
+	int character_skydive_emote_2_for_SAID01464849662
+	int character_skydive_emote_3_for_SAID01464849662
+	int character_skydive_emote_4_for_SAID01464849662
+	int character_skydive_emote_5_for_SAID01464849662
+	int character_skydive_emote_6_for_SAID01464849662
+	int character_skydive_emote_7_for_SAID01464849662
+	int favoredQuip_0_for_SAID01464849662
+	int favoredQuip_1_for_SAID01464849662
+	int favoredQuip_2_for_SAID01464849662
+	int favoredQuip_3_for_SAID01464849662
+	int gcard_badge_0_for_SAID01464849662
+	int gcard_badge_0_tier_for_SAID01464849662
+	int gcard_badge_1_for_SAID01464849662
+	int gcard_badge_1_tier_for_SAID01464849662
+	int gcard_badge_2_for_SAID01464849662
+	int gcard_badge_2_tier_for_SAID01464849662
+	int gcard_frame_for_SAID01464849662
+	int gcard_stance_for_SAID01464849662
+	int gcard_tracker_0_for_SAID01464849662
+	int gcard_tracker_0_value_for_SAID01464849662
+	int gcard_tracker_1_for_SAID01464849662
+	int gcard_tracker_1_value_for_SAID01464849662
+	int gcard_tracker_2_for_SAID01464849662
+	int gcard_tracker_2_value_for_SAID01464849662
+	int quips_0_for_SAID01464849662
+	int quips_1_for_SAID01464849662
+	int quips_2_for_SAID01464849662
+	int quips_3_for_SAID01464849662
+	int quips_4_for_SAID01464849662
+	int quips_5_for_SAID01464849662
+	int quips_6_for_SAID01464849662
+	int quips_7_for_SAID01464849662
+// character SAID01579967516
+	int character_execution_for_SAID01579967516
+	int character_intro_quip_for_SAID01579967516
+	int character_kill_quip_for_SAID01579967516
+	int character_meleeskin_for_SAID01579967516
+	int character_skin_for_SAID01579967516
+	int character_skin_for_SAID01579967516_fav00
+	int character_skin_for_SAID01579967516_fav01
+	int character_skin_for_SAID01579967516_fav02
+	int character_skin_for_SAID01579967516_fav03
+	int character_skin_for_SAID01579967516_fav04
+	int character_skin_for_SAID01579967516_fav05
+	int character_skin_for_SAID01579967516_fav06
+	int character_skin_for_SAID01579967516_fav07
+	int character_skydive_emote_0_for_SAID01579967516
+	int character_skydive_emote_1_for_SAID01579967516
+	int character_skydive_emote_2_for_SAID01579967516
+	int character_skydive_emote_3_for_SAID01579967516
+	int character_skydive_emote_4_for_SAID01579967516
+	int character_skydive_emote_5_for_SAID01579967516
+	int character_skydive_emote_6_for_SAID01579967516
+	int character_skydive_emote_7_for_SAID01579967516
+	int favoredQuip_0_for_SAID01579967516
+	int favoredQuip_1_for_SAID01579967516
+	int favoredQuip_2_for_SAID01579967516
+	int favoredQuip_3_for_SAID01579967516
+	int gcard_badge_0_for_SAID01579967516
+	int gcard_badge_0_tier_for_SAID01579967516
+	int gcard_badge_1_for_SAID01579967516
+	int gcard_badge_1_tier_for_SAID01579967516
+	int gcard_badge_2_for_SAID01579967516
+	int gcard_badge_2_tier_for_SAID01579967516
+	int gcard_frame_for_SAID01579967516
+	int gcard_stance_for_SAID01579967516
+	int gcard_tracker_0_for_SAID01579967516
+	int gcard_tracker_0_value_for_SAID01579967516
+	int gcard_tracker_1_for_SAID01579967516
+	int gcard_tracker_1_value_for_SAID01579967516
+	int gcard_tracker_2_for_SAID01579967516
+	int gcard_tracker_2_value_for_SAID01579967516
+	int quips_0_for_SAID01579967516
+	int quips_1_for_SAID01579967516
+	int quips_2_for_SAID01579967516
+	int quips_3_for_SAID01579967516
+	int quips_4_for_SAID01579967516
+	int quips_5_for_SAID01579967516
+	int quips_6_for_SAID01579967516
+	int quips_7_for_SAID01579967516
+// character SAID01897196488
+	int character_execution_for_SAID01897196488
+	int character_intro_quip_for_SAID01897196488
+	int character_kill_quip_for_SAID01897196488
+	int character_meleeskin_for_SAID01897196488
+	int character_skin_for_SAID01897196488
+	int character_skin_for_SAID01897196488_fav00
+	int character_skin_for_SAID01897196488_fav01
+	int character_skin_for_SAID01897196488_fav02
+	int character_skin_for_SAID01897196488_fav03
+	int character_skin_for_SAID01897196488_fav04
+	int character_skin_for_SAID01897196488_fav05
+	int character_skin_for_SAID01897196488_fav06
+	int character_skin_for_SAID01897196488_fav07
+	int character_skydive_emote_0_for_SAID01897196488
+	int character_skydive_emote_1_for_SAID01897196488
+	int character_skydive_emote_2_for_SAID01897196488
+	int character_skydive_emote_3_for_SAID01897196488
+	int character_skydive_emote_4_for_SAID01897196488
+	int character_skydive_emote_5_for_SAID01897196488
+	int character_skydive_emote_6_for_SAID01897196488
+	int character_skydive_emote_7_for_SAID01897196488
+	int favoredQuip_0_for_SAID01897196488
+	int favoredQuip_1_for_SAID01897196488
+	int favoredQuip_2_for_SAID01897196488
+	int favoredQuip_3_for_SAID01897196488
+	int gcard_badge_0_for_SAID01897196488
+	int gcard_badge_0_tier_for_SAID01897196488
+	int gcard_badge_1_for_SAID01897196488
+	int gcard_badge_1_tier_for_SAID01897196488
+	int gcard_badge_2_for_SAID01897196488
+	int gcard_badge_2_tier_for_SAID01897196488
+	int gcard_frame_for_SAID01897196488
+	int gcard_stance_for_SAID01897196488
+	int gcard_tracker_0_for_SAID01897196488
+	int gcard_tracker_0_value_for_SAID01897196488
+	int gcard_tracker_1_for_SAID01897196488
+	int gcard_tracker_1_value_for_SAID01897196488
+	int gcard_tracker_2_for_SAID01897196488
+	int gcard_tracker_2_value_for_SAID01897196488
+	int quips_0_for_SAID01897196488
+	int quips_1_for_SAID01897196488
+	int quips_2_for_SAID01897196488
+	int quips_3_for_SAID01897196488
+	int quips_4_for_SAID01897196488
+	int quips_5_for_SAID01897196488
+	int quips_6_for_SAID01897196488
+	int quips_7_for_SAID01897196488
+// character SAID02045656322
+	int character_execution_for_SAID02045656322
+	int character_intro_quip_for_SAID02045656322
+	int character_kill_quip_for_SAID02045656322
+	int character_meleeskin_for_SAID02045656322
+	int character_skin_for_SAID02045656322
+	int character_skin_for_SAID02045656322_fav00
+	int character_skin_for_SAID02045656322_fav01
+	int character_skin_for_SAID02045656322_fav02
+	int character_skin_for_SAID02045656322_fav03
+	int character_skin_for_SAID02045656322_fav04
+	int character_skin_for_SAID02045656322_fav05
+	int character_skin_for_SAID02045656322_fav06
+	int character_skin_for_SAID02045656322_fav07
+	int character_skydive_emote_0_for_SAID02045656322
+	int character_skydive_emote_1_for_SAID02045656322
+	int character_skydive_emote_2_for_SAID02045656322
+	int character_skydive_emote_3_for_SAID02045656322
+	int character_skydive_emote_4_for_SAID02045656322
+	int character_skydive_emote_5_for_SAID02045656322
+	int character_skydive_emote_6_for_SAID02045656322
+	int character_skydive_emote_7_for_SAID02045656322
+	int favoredQuip_0_for_SAID02045656322
+	int favoredQuip_1_for_SAID02045656322
+	int favoredQuip_2_for_SAID02045656322
+	int favoredQuip_3_for_SAID02045656322
+	int gcard_badge_0_for_SAID02045656322
+	int gcard_badge_0_tier_for_SAID02045656322
+	int gcard_badge_1_for_SAID02045656322
+	int gcard_badge_1_tier_for_SAID02045656322
+	int gcard_badge_2_for_SAID02045656322
+	int gcard_badge_2_tier_for_SAID02045656322
+	int gcard_frame_for_SAID02045656322
+	int gcard_stance_for_SAID02045656322
+	int gcard_tracker_0_for_SAID02045656322
+	int gcard_tracker_0_value_for_SAID02045656322
+	int gcard_tracker_1_for_SAID02045656322
+	int gcard_tracker_1_value_for_SAID02045656322
+	int gcard_tracker_2_for_SAID02045656322
+	int gcard_tracker_2_value_for_SAID02045656322
+	int quips_0_for_SAID02045656322
+	int quips_1_for_SAID02045656322
+	int quips_2_for_SAID02045656322
+	int quips_3_for_SAID02045656322
+	int quips_4_for_SAID02045656322
+	int quips_5_for_SAID02045656322
+	int quips_6_for_SAID02045656322
+	int quips_7_for_SAID02045656322
+// character SAID02105222312
+	int character_execution_for_SAID02105222312
+	int character_intro_quip_for_SAID02105222312
+	int character_kill_quip_for_SAID02105222312
+	int character_meleeskin_for_SAID02105222312
+	int character_skin_for_SAID02105222312
+	int character_skin_for_SAID02105222312_fav00
+	int character_skin_for_SAID02105222312_fav01
+	int character_skin_for_SAID02105222312_fav02
+	int character_skin_for_SAID02105222312_fav03
+	int character_skin_for_SAID02105222312_fav04
+	int character_skin_for_SAID02105222312_fav05
+	int character_skin_for_SAID02105222312_fav06
+	int character_skin_for_SAID02105222312_fav07
+	int character_skydive_emote_0_for_SAID02105222312
+	int character_skydive_emote_1_for_SAID02105222312
+	int character_skydive_emote_2_for_SAID02105222312
+	int character_skydive_emote_3_for_SAID02105222312
+	int character_skydive_emote_4_for_SAID02105222312
+	int character_skydive_emote_5_for_SAID02105222312
+	int character_skydive_emote_6_for_SAID02105222312
+	int character_skydive_emote_7_for_SAID02105222312
+	int favoredQuip_0_for_SAID02105222312
+	int favoredQuip_1_for_SAID02105222312
+	int favoredQuip_2_for_SAID02105222312
+	int favoredQuip_3_for_SAID02105222312
+	int gcard_badge_0_for_SAID02105222312
+	int gcard_badge_0_tier_for_SAID02105222312
+	int gcard_badge_1_for_SAID02105222312
+	int gcard_badge_1_tier_for_SAID02105222312
+	int gcard_badge_2_for_SAID02105222312
+	int gcard_badge_2_tier_for_SAID02105222312
+	int gcard_frame_for_SAID02105222312
+	int gcard_stance_for_SAID02105222312
+	int gcard_tracker_0_for_SAID02105222312
+	int gcard_tracker_0_value_for_SAID02105222312
+	int gcard_tracker_1_for_SAID02105222312
+	int gcard_tracker_1_value_for_SAID02105222312
+	int gcard_tracker_2_for_SAID02105222312
+	int gcard_tracker_2_value_for_SAID02105222312
+	int quips_0_for_SAID02105222312
+	int quips_1_for_SAID02105222312
+	int quips_2_for_SAID02105222312
+	int quips_3_for_SAID02105222312
+	int quips_4_for_SAID02105222312
+	int quips_5_for_SAID02105222312
+	int quips_6_for_SAID02105222312
+	int quips_7_for_SAID02105222312
+// weapon SAID00048783537
+	int weapon_charm_for_SAID00048783537
+	int weapon_skin_for_SAID00048783537
+	int weapon_skin_for_SAID00048783537_fav00
+	int weapon_skin_for_SAID00048783537_fav01
+	int weapon_skin_for_SAID00048783537_fav02
+	int weapon_skin_for_SAID00048783537_fav03
+	int weapon_skin_for_SAID00048783537_fav04
+	int weapon_skin_for_SAID00048783537_fav05
+	int weapon_skin_for_SAID00048783537_fav06
+	int weapon_skin_for_SAID00048783537_fav07
+// weapon SAID00080404303
+	int weapon_charm_for_SAID00080404303
+	int weapon_skin_for_SAID00080404303
+	int weapon_skin_for_SAID00080404303_fav00
+	int weapon_skin_for_SAID00080404303_fav01
+	int weapon_skin_for_SAID00080404303_fav02
+	int weapon_skin_for_SAID00080404303_fav03
+	int weapon_skin_for_SAID00080404303_fav04
+	int weapon_skin_for_SAID00080404303_fav05
+	int weapon_skin_for_SAID00080404303_fav06
+	int weapon_skin_for_SAID00080404303_fav07
+// weapon SAID00107352658
+	int weapon_charm_for_SAID00107352658
+	int weapon_skin_for_SAID00107352658
+	int weapon_skin_for_SAID00107352658_fav00
+	int weapon_skin_for_SAID00107352658_fav01
+	int weapon_skin_for_SAID00107352658_fav02
+	int weapon_skin_for_SAID00107352658_fav03
+	int weapon_skin_for_SAID00107352658_fav04
+	int weapon_skin_for_SAID00107352658_fav05
+	int weapon_skin_for_SAID00107352658_fav06
+	int weapon_skin_for_SAID00107352658_fav07
+// weapon SAID00194888968
+	int weapon_charm_for_SAID00194888968
+	int weapon_skin_for_SAID00194888968
+	int weapon_skin_for_SAID00194888968_fav00
+	int weapon_skin_for_SAID00194888968_fav01
+	int weapon_skin_for_SAID00194888968_fav02
+	int weapon_skin_for_SAID00194888968_fav03
+	int weapon_skin_for_SAID00194888968_fav04
+	int weapon_skin_for_SAID00194888968_fav05
+	int weapon_skin_for_SAID00194888968_fav06
+	int weapon_skin_for_SAID00194888968_fav07
+// weapon SAID00342631558
+	int weapon_charm_for_SAID00342631558
+	int weapon_skin_for_SAID00342631558
+	int weapon_skin_for_SAID00342631558_fav00
+	int weapon_skin_for_SAID00342631558_fav01
+	int weapon_skin_for_SAID00342631558_fav02
+	int weapon_skin_for_SAID00342631558_fav03
+	int weapon_skin_for_SAID00342631558_fav04
+	int weapon_skin_for_SAID00342631558_fav05
+	int weapon_skin_for_SAID00342631558_fav06
+	int weapon_skin_for_SAID00342631558_fav07
+// weapon SAID00352110003
+	int weapon_charm_for_SAID00352110003
+	int weapon_skin_for_SAID00352110003
+	int weapon_skin_for_SAID00352110003_fav00
+	int weapon_skin_for_SAID00352110003_fav01
+	int weapon_skin_for_SAID00352110003_fav02
+	int weapon_skin_for_SAID00352110003_fav03
+	int weapon_skin_for_SAID00352110003_fav04
+	int weapon_skin_for_SAID00352110003_fav05
+	int weapon_skin_for_SAID00352110003_fav06
+	int weapon_skin_for_SAID00352110003_fav07
+// weapon SAID00418361060
+	int weapon_charm_for_SAID00418361060
+	int weapon_skin_for_SAID00418361060
+	int weapon_skin_for_SAID00418361060_fav00
+	int weapon_skin_for_SAID00418361060_fav01
+	int weapon_skin_for_SAID00418361060_fav02
+	int weapon_skin_for_SAID00418361060_fav03
+	int weapon_skin_for_SAID00418361060_fav04
+	int weapon_skin_for_SAID00418361060_fav05
+	int weapon_skin_for_SAID00418361060_fav06
+	int weapon_skin_for_SAID00418361060_fav07
+// weapon SAID00686444189
+	int weapon_charm_for_SAID00686444189
+	int weapon_skin_for_SAID00686444189
+	int weapon_skin_for_SAID00686444189_fav00
+	int weapon_skin_for_SAID00686444189_fav01
+	int weapon_skin_for_SAID00686444189_fav02
+	int weapon_skin_for_SAID00686444189_fav03
+	int weapon_skin_for_SAID00686444189_fav04
+	int weapon_skin_for_SAID00686444189_fav05
+	int weapon_skin_for_SAID00686444189_fav06
+	int weapon_skin_for_SAID00686444189_fav07
+// weapon SAID00908539842
+	int weapon_charm_for_SAID00908539842
+	int weapon_skin_for_SAID00908539842
+	int weapon_skin_for_SAID00908539842_fav00
+	int weapon_skin_for_SAID00908539842_fav01
+	int weapon_skin_for_SAID00908539842_fav02
+	int weapon_skin_for_SAID00908539842_fav03
+	int weapon_skin_for_SAID00908539842_fav04
+	int weapon_skin_for_SAID00908539842_fav05
+	int weapon_skin_for_SAID00908539842_fav06
+	int weapon_skin_for_SAID00908539842_fav07
+// weapon SAID00909655776
+	int weapon_charm_for_SAID00909655776
+	int weapon_skin_for_SAID00909655776
+	int weapon_skin_for_SAID00909655776_fav00
+	int weapon_skin_for_SAID00909655776_fav01
+	int weapon_skin_for_SAID00909655776_fav02
+	int weapon_skin_for_SAID00909655776_fav03
+	int weapon_skin_for_SAID00909655776_fav04
+	int weapon_skin_for_SAID00909655776_fav05
+	int weapon_skin_for_SAID00909655776_fav06
+	int weapon_skin_for_SAID00909655776_fav07
+// weapon SAID00945439943
+	int weapon_charm_for_SAID00945439943
+	int weapon_skin_for_SAID00945439943
+	int weapon_skin_for_SAID00945439943_fav00
+	int weapon_skin_for_SAID00945439943_fav01
+	int weapon_skin_for_SAID00945439943_fav02
+	int weapon_skin_for_SAID00945439943_fav03
+	int weapon_skin_for_SAID00945439943_fav04
+	int weapon_skin_for_SAID00945439943_fav05
+	int weapon_skin_for_SAID00945439943_fav06
+	int weapon_skin_for_SAID00945439943_fav07
+// weapon SAID00947460272
+	int weapon_charm_for_SAID00947460272
+	int weapon_skin_for_SAID00947460272
+	int weapon_skin_for_SAID00947460272_fav00
+	int weapon_skin_for_SAID00947460272_fav01
+	int weapon_skin_for_SAID00947460272_fav02
+	int weapon_skin_for_SAID00947460272_fav03
+	int weapon_skin_for_SAID00947460272_fav04
+	int weapon_skin_for_SAID00947460272_fav05
+	int weapon_skin_for_SAID00947460272_fav06
+	int weapon_skin_for_SAID00947460272_fav07
+// weapon SAID00970511567
+	int weapon_charm_for_SAID00970511567
+	int weapon_skin_for_SAID00970511567
+	int weapon_skin_for_SAID00970511567_fav00
+	int weapon_skin_for_SAID00970511567_fav01
+	int weapon_skin_for_SAID00970511567_fav02
+	int weapon_skin_for_SAID00970511567_fav03
+	int weapon_skin_for_SAID00970511567_fav04
+	int weapon_skin_for_SAID00970511567_fav05
+	int weapon_skin_for_SAID00970511567_fav06
+	int weapon_skin_for_SAID00970511567_fav07
+// weapon SAID01082669812
+	int weapon_charm_for_SAID01082669812
+	int weapon_skin_for_SAID01082669812
+	int weapon_skin_for_SAID01082669812_fav00
+	int weapon_skin_for_SAID01082669812_fav01
+	int weapon_skin_for_SAID01082669812_fav02
+	int weapon_skin_for_SAID01082669812_fav03
+	int weapon_skin_for_SAID01082669812_fav04
+	int weapon_skin_for_SAID01082669812_fav05
+	int weapon_skin_for_SAID01082669812_fav06
+	int weapon_skin_for_SAID01082669812_fav07
+// weapon SAID01363034817
+	int weapon_charm_for_SAID01363034817
+	int weapon_skin_for_SAID01363034817
+	int weapon_skin_for_SAID01363034817_fav00
+	int weapon_skin_for_SAID01363034817_fav01
+	int weapon_skin_for_SAID01363034817_fav02
+	int weapon_skin_for_SAID01363034817_fav03
+	int weapon_skin_for_SAID01363034817_fav04
+	int weapon_skin_for_SAID01363034817_fav05
+	int weapon_skin_for_SAID01363034817_fav06
+	int weapon_skin_for_SAID01363034817_fav07
+// weapon SAID01388774763
+	int weapon_charm_for_SAID01388774763
+	int weapon_skin_for_SAID01388774763
+	int weapon_skin_for_SAID01388774763_fav00
+	int weapon_skin_for_SAID01388774763_fav01
+	int weapon_skin_for_SAID01388774763_fav02
+	int weapon_skin_for_SAID01388774763_fav03
+	int weapon_skin_for_SAID01388774763_fav04
+	int weapon_skin_for_SAID01388774763_fav05
+	int weapon_skin_for_SAID01388774763_fav06
+	int weapon_skin_for_SAID01388774763_fav07
+// weapon SAID01408780340
+	int weapon_charm_for_SAID01408780340
+	int weapon_skin_for_SAID01408780340
+	int weapon_skin_for_SAID01408780340_fav00
+	int weapon_skin_for_SAID01408780340_fav01
+	int weapon_skin_for_SAID01408780340_fav02
+	int weapon_skin_for_SAID01408780340_fav03
+	int weapon_skin_for_SAID01408780340_fav04
+	int weapon_skin_for_SAID01408780340_fav05
+	int weapon_skin_for_SAID01408780340_fav06
+	int weapon_skin_for_SAID01408780340_fav07
+// weapon SAID01475792313
+	int weapon_charm_for_SAID01475792313
+	int weapon_skin_for_SAID01475792313
+	int weapon_skin_for_SAID01475792313_fav00
+	int weapon_skin_for_SAID01475792313_fav01
+	int weapon_skin_for_SAID01475792313_fav02
+	int weapon_skin_for_SAID01475792313_fav03
+	int weapon_skin_for_SAID01475792313_fav04
+	int weapon_skin_for_SAID01475792313_fav05
+	int weapon_skin_for_SAID01475792313_fav06
+	int weapon_skin_for_SAID01475792313_fav07
+// weapon SAID01496005473
+	int weapon_charm_for_SAID01496005473
+	int weapon_skin_for_SAID01496005473
+	int weapon_skin_for_SAID01496005473_fav00
+	int weapon_skin_for_SAID01496005473_fav01
+	int weapon_skin_for_SAID01496005473_fav02
+	int weapon_skin_for_SAID01496005473_fav03
+	int weapon_skin_for_SAID01496005473_fav04
+	int weapon_skin_for_SAID01496005473_fav05
+	int weapon_skin_for_SAID01496005473_fav06
+	int weapon_skin_for_SAID01496005473_fav07
+// weapon SAID01580685432
+	int weapon_charm_for_SAID01580685432
+	int weapon_skin_for_SAID01580685432
+	int weapon_skin_for_SAID01580685432_fav00
+	int weapon_skin_for_SAID01580685432_fav01
+	int weapon_skin_for_SAID01580685432_fav02
+	int weapon_skin_for_SAID01580685432_fav03
+	int weapon_skin_for_SAID01580685432_fav04
+	int weapon_skin_for_SAID01580685432_fav05
+	int weapon_skin_for_SAID01580685432_fav06
+	int weapon_skin_for_SAID01580685432_fav07
+// weapon SAID01603172346
+	int weapon_charm_for_SAID01603172346
+	int weapon_skin_for_SAID01603172346
+	int weapon_skin_for_SAID01603172346_fav00
+	int weapon_skin_for_SAID01603172346_fav01
+	int weapon_skin_for_SAID01603172346_fav02
+	int weapon_skin_for_SAID01603172346_fav03
+	int weapon_skin_for_SAID01603172346_fav04
+	int weapon_skin_for_SAID01603172346_fav05
+	int weapon_skin_for_SAID01603172346_fav06
+	int weapon_skin_for_SAID01603172346_fav07
+// weapon SAID01644528094
+	int weapon_charm_for_SAID01644528094
+	int weapon_skin_for_SAID01644528094
+	int weapon_skin_for_SAID01644528094_fav00
+	int weapon_skin_for_SAID01644528094_fav01
+	int weapon_skin_for_SAID01644528094_fav02
+	int weapon_skin_for_SAID01644528094_fav03
+	int weapon_skin_for_SAID01644528094_fav04
+	int weapon_skin_for_SAID01644528094_fav05
+	int weapon_skin_for_SAID01644528094_fav06
+	int weapon_skin_for_SAID01644528094_fav07
+// weapon SAID01820095990
+	int weapon_charm_for_SAID01820095990
+	int weapon_skin_for_SAID01820095990
+	int weapon_skin_for_SAID01820095990_fav00
+	int weapon_skin_for_SAID01820095990_fav01
+	int weapon_skin_for_SAID01820095990_fav02
+	int weapon_skin_for_SAID01820095990_fav03
+	int weapon_skin_for_SAID01820095990_fav04
+	int weapon_skin_for_SAID01820095990_fav05
+	int weapon_skin_for_SAID01820095990_fav06
+	int weapon_skin_for_SAID01820095990_fav07
+// weapon SAID01870377113
+	int weapon_charm_for_SAID01870377113
+	int weapon_skin_for_SAID01870377113
+	int weapon_skin_for_SAID01870377113_fav00
+	int weapon_skin_for_SAID01870377113_fav01
+	int weapon_skin_for_SAID01870377113_fav02
+	int weapon_skin_for_SAID01870377113_fav03
+	int weapon_skin_for_SAID01870377113_fav04
+	int weapon_skin_for_SAID01870377113_fav05
+	int weapon_skin_for_SAID01870377113_fav06
+	int weapon_skin_for_SAID01870377113_fav07
+// weapon SAID01920744447
+	int weapon_charm_for_SAID01920744447
+	int weapon_skin_for_SAID01920744447
+	int weapon_skin_for_SAID01920744447_fav00
+	int weapon_skin_for_SAID01920744447_fav01
+	int weapon_skin_for_SAID01920744447_fav02
+	int weapon_skin_for_SAID01920744447_fav03
+	int weapon_skin_for_SAID01920744447_fav04
+	int weapon_skin_for_SAID01920744447_fav05
+	int weapon_skin_for_SAID01920744447_fav06
+	int weapon_skin_for_SAID01920744447_fav07
+// weapon SAID01928357643
+	int weapon_charm_for_SAID01928357643
+	int weapon_skin_for_SAID01928357643
+	int weapon_skin_for_SAID01928357643_fav00
+	int weapon_skin_for_SAID01928357643_fav01
+	int weapon_skin_for_SAID01928357643_fav02
+	int weapon_skin_for_SAID01928357643_fav03
+	int weapon_skin_for_SAID01928357643_fav04
+	int weapon_skin_for_SAID01928357643_fav05
+	int weapon_skin_for_SAID01928357643_fav06
+	int weapon_skin_for_SAID01928357643_fav07
+// weapon SAID01981891556
+	int weapon_charm_for_SAID01981891556
+	int weapon_skin_for_SAID01981891556
+	int weapon_skin_for_SAID01981891556_fav00
+	int weapon_skin_for_SAID01981891556_fav01
+	int weapon_skin_for_SAID01981891556_fav02
+	int weapon_skin_for_SAID01981891556_fav03
+	int weapon_skin_for_SAID01981891556_fav04
+	int weapon_skin_for_SAID01981891556_fav05
+	int weapon_skin_for_SAID01981891556_fav06
+	int weapon_skin_for_SAID01981891556_fav07
+// weapon SAID02050922236
+	int weapon_charm_for_SAID02050922236
+	int weapon_skin_for_SAID02050922236
+	int weapon_skin_for_SAID02050922236_fav00
+	int weapon_skin_for_SAID02050922236_fav01
+	int weapon_skin_for_SAID02050922236_fav02
+	int weapon_skin_for_SAID02050922236_fav03
+	int weapon_skin_for_SAID02050922236_fav04
+	int weapon_skin_for_SAID02050922236_fav05
+	int weapon_skin_for_SAID02050922236_fav06
+	int weapon_skin_for_SAID02050922236_fav07
+// weapon SAID02091853053
+	int weapon_charm_for_SAID02091853053
+	int weapon_skin_for_SAID02091853053
+	int weapon_skin_for_SAID02091853053_fav00
+	int weapon_skin_for_SAID02091853053_fav01
+	int weapon_skin_for_SAID02091853053_fav02
+	int weapon_skin_for_SAID02091853053_fav03
+	int weapon_skin_for_SAID02091853053_fav04
+	int weapon_skin_for_SAID02091853053_fav05
+	int weapon_skin_for_SAID02091853053_fav06
+	int weapon_skin_for_SAID02091853053_fav07
+$STRUCT_END
+
+// The data to save per-battlepass
+$STRUCT_START sBattlePassData
+	int cachedPurchasedXP
+	int challengeRerollsUsed
+	int earnedXP
+	int grxEaAccessPremium
+	int grxFreeRewardSeq
+	int grxPremiumRewardSeq
+	int lastPopupLevel
+	int lastSeenEarnedXP
+	int lastSeenMilestone
+	bool lastSeenPremiumState
+	int lastSeenPurchasedXP
+	int previousEarnedXP
+$STRUCT_END
+
+// Data for season quests.
+$STRUCT_START sSeasonQuestData
+	int comicPagesRead
+	bool comicPanel_displayFinalRewards
+	bool haveStartedQuest
+	int lastMissionUnlockTime
+	int missionProgress
+	int treasureBox_displayCount
+	int treasureBox_displayStartNum
+	int treasureBox_lastPickupTime
+	int treasureBox_lastSeenPurchased
+	int treasureBox_totalPickups
+$STRUCT_END
+
+// The data to save per assigned challenge
+$STRUCT_START sChallengeData
+	int currentTier
+	int guid
+	int statMarker
+	int statMarkerAlt
+$STRUCT_END
+
+// The data to save any challenge progress info for post game summary
+$STRUCT_START sPostGameChallengesProgress
+	int guid
+	int progressMatchStart
+	int tierMatchStart
+	bool useAlt
+$STRUCT_END
+
+// 
+$STRUCT_START sStatEnumStruct_weapons
+	int damage_done
+	int dooms
+	int headshots
+	int hits
+	int kills
+	int shots
+$STRUCT_END
+
+// 
+$STRUCT_START sStatEnumStruct_characters_weapons
+	int damage_done
+	int dooms
+	int headshots
+	int hits
+	int kills
+	int shots
+$STRUCT_END
+
+// 
+$STRUCT_START sStatEnumStruct_characters_weaponcategories
+$STRUCT_END
+
+// 
+$STRUCT_START sStatEnumStruct_characters
+	int arenas_character_damage_done_max_single_game
+	int arenas_character_kills_max_single_game
+	int arenas_character_rounds_won
+	int arenas_character_win_streak_current_new
+	int arenas_character_win_streak_longest_new
+	int character_banner_once_filled
+	int character_damage_done_max_single_game
+	int character_elite_game_8kill_wins
+	int character_elite_game_wins
+	int character_games_with_respawning_both_teammates
+	int character_hot_streaks
+	int character_placements_win_as_jumpmaster
+	int character_placements_win_as_killleader
+	int character_placements_win_as_killleader_and_champion
+	int character_placements_win_flawless_1
+	int character_placements_win_flawless_2
+	int character_placements_win_with_5_headshots
+	int character_rapid_eliminations
+	int character_reinforcement_recalls
+	int character_solo_placements_top_5
+	int character_solo_wins
+	int character_won_last_game
+	int damage_done
+	int damage_done_any_mode
+	int deaths
+	int dooms
+	int executions
+	int games_played
+	int games_played_any_mode
+	int games_with_20_kills
+	int games_with_5_kills
+	int headshots
+	int hits
+	int kills
+	int kills_while_killleader
+	int most_squad_squad_kills_in_1_game
+	int neutral_airdrops_looted
+	int placements_top_10
+	int placements_top_3
+	int placements_win
+	int placements_win_with_squad_alive
+	int revived_ally
+	int season02_event01_character_solo_wins
+	int shots
+	int solo_dooms
+	sStatEnumStruct_characters_weaponcategories weaponcategories[eWeaponStatCategory]
+	sStatEnumStruct_characters_weapons weapons[eWeaponFlavor]
+	int winning_kills
+$STRUCT_END
+
+// 
+$STRUCT_START sStatEnumStruct_modes_seasons
+	int assists
+	int damage_done
+	int damage_done_max_single_game
+	int deaths
+	int dooms
+	int games_played
+	int kills
+	int kills_max_single_game
+	int placements_win
+	int revived_ally
+	int win_streak_current
+	int win_streak_longest
+$STRUCT_END
+
+// 
+$STRUCT_START sStatEnumStruct_modes_characters
+	int damage_done
+	int deaths
+	int dooms
+	int games_played
+	int kills
+	int placements_win
+$STRUCT_END
+
+// 
+$STRUCT_START sStatEnumStruct_modes_weapons
+	int damage_done
+	int dooms
+$STRUCT_END
+
+// 
+$STRUCT_START sStatEnumStruct_modes_weaponcategories
+$STRUCT_END
+
+// 
+$STRUCT_START sStatEnumStruct_modes
+	int assists
+	sStatEnumStruct_modes_characters characters[eCharacterFlavor]
+	int damage_done
+	int damage_done_max_single_game
+	int deaths
+	int dooms
+	int executions
+	int games_played
+	int headshots
+	int kills
+	int kills_max_single_game
+	int kills_or_assists
+	int placements_win
+	int revived_ally
+	sStatEnumStruct_modes_seasons seasons[eSeasonFlavor]
+	sStatEnumStruct_modes_weaponcategories weaponcategories[eWeaponStatCategory]
+	sStatEnumStruct_modes_weapons weapons[eWeaponFlavor]
+	int win_streak_current
+	int win_streak_longest
+$STRUCT_END
+
+// 
+$STRUCT_START sStatEnumStruct_weaponcategories
+$STRUCT_END
+
+// 
+$STRUCT_START sStatEnumStruct_seasons_characters
+	int character_damage_done_max_single_game
+	int damage_done
+	int kills
+	int placements_top_5
+	int placements_win
+$STRUCT_END
+
+// 
+$STRUCT_START sStatEnumStruct_seasons
+	int assists
+	int battlepass_bonus_xp_with_7_characters
+	int battlepass_level
+	sStatEnumStruct_seasons_characters characters[eCharacterFlavor]
+	int damage_done
+	int deaths
+	int dooms
+	int games_played
+	int kills
+	int kills_max_single_game
+	int kills_with_7_characters
+	int placements_top_5_with_7_characters
+	int placements_win
+	int placements_wins_with_7_characters
+	int revived_ally
+	int team_work_kill_count
+	int times_respawned_ally
+	int win_streak_current
+	int win_streak_longest
+$STRUCT_END
+
+// 
+$STRUCT_START sStatEnumStruct_rankedperiods_characters
+	int character_damage_done_max_single_game
+$STRUCT_END
+
+// 
+$STRUCT_START sStatEnumStruct_rankedperiods
+	int assists
+	int badge_award_level
+	sStatEnumStruct_rankedperiods_characters characters[eCharacterFlavor]
+	int current_rank_score
+	int damage_done
+	int deaths
+	int dooms
+	int gained_rank_score_only
+	int games_played
+	int kills
+	int kills_max_single_game
+	int placements_top_10
+	int placements_top_5
+	int placements_win
+	int revived_ally
+	int times_respawned_ally
+	int win_streak_current
+	int win_streak_longest
+$STRUCT_END
+
+// 
+$STRUCT_START sStatEnumStruct_arenasrankedperiods
+	int assists
+	int badge_award_level
+	int current_rank_score
+	int damage_done
+	int damage_done_max_single_game
+	int deaths
+	int dooms
+	int gained_rank_score_only
+	int games_played
+	int kills
+	int kills_max_single_game
+	int placements_win
+	int revived_ally
+	int win_streak_current_new
+	int win_streak_longest_new
+$STRUCT_END
+
+// current data
+$STRUCT_START sStatsData
+	int arenas_badge_no_down_win
+	int arenas_badge_perfect_game
+	int arenas_cash_stations_captured
+	int arenas_heals_purchased
+	int arenas_ordnance_purchased
+	int arenas_rounds_won
+	int arenas_skills_purchased
+	int arenas_weapons_upgraded
+	int arenas_win_with_5_kill_ko_assist
+	sStatEnumStruct_arenasrankedperiods arenasrankedperiods[eArenasRankedPeriodFlavor]
+	int armor_upgaraded_count
+	int ash_enemies_marked
+	int ash_enemies_tethered
+	int ash_players_portaled
+	int assault_games_played
+	int assists
+	int ballistic_passive_sling_kills
+	int ballistic_tactical_enemies_hit
+	int ballistic_tactical_enemies_overheated
+	int ballistic_ultimate_damage
+	int bangalore_passive_distance
+	int bangalore_tactical_smoke_hits
+	int bangalore_ultimate_damage_done
+	int beacon_scanned_squads_killed
+	int beginner_distance_kill
+	int bloodhound_tactical_enemies_detected
+	int bloodhound_tactical_traps_detected
+	int bloodhound_ultimate_kills_while_active
+	int br_top_10_or_arena_win
+	int care_packages_revealed
+	int catalyst_dark_veil_enemies_crossed
+	int catalyst_doors_barricaded
+	int catalyst_spikes_damage
+	int caustic_gas_damage_dealt
+	int caustic_passive_enemies_in_gas_killed
+	int caustic_tactical_barrels_traps_detonated
+	int challenge_stars_earned
+	int challenge_xp_earned
+	sStatEnumStruct_characters characters[eCharacterFlavor]
+	int clubs_games_played_with_club
+	int clubs_placements_win_with_club
+	int clubs_placements_win_with_club_no_deaths
+	int clubs_placements_win_with_club_no_deaths_or_knockouts
+	int clubs_placements_win_with_club_squad_alive
+	int clubs_placements_win_with_club_streak
+	int controller_games_played
+	int crafting_harvester_used_any_mode
+	int crypto_passive_enemies_scanned
+	int crypto_ultimate_shield_damage
+	int crypto_ultimate_traps_destroyed
+	int daily_challenges_completed
+	int damage_done
+	int damage_done_any_mode
+	int damage_done_first_ring_round_br
+	int damage_done_hipfire_any_mode
+	int damage_done_midair
+	int damage_done_ordnance_any_mode
+	int damage_done_to_prowler_on_storm_point
+	int damage_done_to_spider_on_storm_point
+	int damage_taken
+	int damage_with_red_weapons_any_mode
+	int deaths
+	int distance_kill
+	int dooms
+	int dooms_any_mode
+	int doors_broken_by_melee
+	int elite_badge_unlock
+	int equipped_attachment
+	int evoarmor_evolves
+	int evoarmor_evolves_to_purple
+	int evoarmor_evolves_to_red
+	int executions
+	int executions_any_mode
+	int extended_supply_bins_looted
+	int fashionista
+	int fuse_cluster_bomb_hits
+	int fuse_grenade_distance_thrown
+	int fuse_motherlode_enemies_captured
+	int gamemode_control_became_expleader
+	int gamemode_control_capture_bonuses_claimed_by_team
+	int gamemode_control_highest_exp_as_expleader
+	int gamemode_control_killed_enemy_1_tier_higher
+	int gamemode_control_killed_enemy_2_tier_higher
+	int gamemode_control_killed_expleader
+	int gamemode_control_killed_objective_attacker
+	int gamemode_control_killed_objective_defender
+	int gamemode_control_objectives_captured
+	int gamemode_control_personal_exp_points_earned
+	int gamemode_control_time_on_objective
+	int games_played
+	int games_played_any_mode
+	int gibraltar_passive_gunshield_enemy_damage_absorbed
+	int gibraltar_tactical_bubble_enemy_damage_absorbed
+	int gibraltar_ultimate_bombardment_kills
+	int headshots
+	int headshots_any_mode
+	int health_restored_any_mode
+	int hits
+	int horizon_blackhole_damage_done
+	int horizon_hard_landings_avoided
+	int horizon_teammates_gravity_lifted
+	int hovervehicle_occupant_meters_traveled
+	int items_crafted
+	int kills
+	int kills_max_single_game
+	int kills_or_assists
+	int kills_or_assists_any_mode
+	int kills_while_killleader
+	int kills_with_red_weapons_any_mode
+	int kills_with_throwing_knife_gungame
+	int lifeline_passive_allies_revived
+	int lifeline_passive_enemy_damage_absorbed
+	int lifeline_tactical_drone_healing_given
+	int lifeline_ultimate_droppod_items_grabbed_by_allies
+	int loba_passive_loot_pinged_through_walls
+	int loba_tactical_meters_teleported
+	int loba_ultimate_loot_taken_by_allies
+	int loot_bins_opened
+	int looted_all_launch_loot_once
+	int looted_all_nongold_weapons_in_1_match
+	int looted_epic_item
+	int looted_legendary_armor
+	int looted_legendary_helmet
+	int looted_legendary_item
+	int maggie_riot_drill_drill_distance
+	int maggie_warlords_ire_highlight_time
+	int maggie_wrecking_ball_boost_distance
+	int master_of_all
+	int materials_collected
+	int max_placement_win_streak_with_premade_squad
+	int melee_damage_any_mode
+	int mirage_decoys_created
+	int mirage_successful_bamboozles
+	int mirage_successful_revives
+	int mirror_legend_kills_any_mode
+	sStatEnumStruct_modes modes[eModesFlavors]
+	int neutral_airdrops_looted
+	int newcastle_allies_rescued
+	int newcastle_mobile_shield_damage
+	int newcastle_revive_distance
+	int num_characters_with_banners_once_filled
+	int octane_jump_pad_allies_launched
+	int octane_passive_health_regenerated
+	int octane_stim_distance_traveled
+	int opponents_outlived
+	int pathfinder_passive_beacons_scanned
+	int pathfinder_tactical_meters_moved_by_grapple
+	int pathfinder_ultimate_ziplines_used_by_allies
+	int phoenix_kits_used
+	int placements_top_10
+	int placements_top_3
+	int placements_top_5
+	int placements_win
+	int placements_win_with_friends
+	int placements_win_with_min_executions_per_person
+	int placements_win_with_no_witnessess
+	int placements_win_with_squad_alive
+	int rampart_tactical_bullets_amped
+	int rampart_tactical_damage_blocked
+	int rampart_ultimate_bullets_fired
+	sStatEnumStruct_rankedperiods rankedperiods[eRankedStatPeriod]
+	int recon_games_played
+	int recon_passive_beacons_scanned
+	int respawn_banners_crafted
+	int respawn_dev
+	int respawned_ally
+	int revealed_care_packages_looted
+	int revenant_death_totem_activates
+	int revenant_passive_marked_enemies
+	int revenant_silenced_target
+	int revenant_silenced_target_knockdowns
+	int revenant_tactical_distance
+	int revenant_ultimate_knocks_kills
+	int revenant_unlock_passive_marked_enemies
+	int revenant_unlock_tactical_distance
+	int revenant_unlock_ultimate_knocks_kills
+	int revived_ally
+	int ring_closings_survived
+	int ring_consoles_used
+	int s03_duos_badge_play
+	int s03_duos_badge_win
+	int s03e01_badge
+	int s03e02_winter_express_captures
+	int s03e03_buffet_points
+	int s03e03_placement_top_5
+	int s03e03_play_each_game_mode
+	int s04e01_buffet_points
+	int s04e02_buffet_points
+	int s05e01_armed_and_dangerous_evolved_kills
+	int s05e01_armed_and_dangerous_evolved_times_respawned_ally
+	int s05e01_armed_and_dangerous_evolved_wins
+	int s05e01_buffet_points
+	int s06e01_buffet_points
+	int s06e01_campfire_damage_dealt_in_zone
+	int s06e01_campfire_players_killed_in_zone
+	int s06e01_campfire_wins
+	int s06e02_buffet_points
+	int s06e02_shadow_royale_kills
+	int s06e02_shadow_royale_revives
+	int s06e02_shadow_royale_wins
+	int s07e01_buffet_points
+	int s07e01_winter_express_captures
+	int s07e01_winter_express_damage
+	int s07e01_winter_express_kills
+	int s07e02_airdropkitted_damage_dealt
+	int s07e02_airdropkitted_knockdowns
+	int s07e02_airdropkitted_wins
+	int s07e02_buffet_points
+	int s08ace_buffet_points
+	int s08e01_buffet_points
+	int s08e01_ringfury_challenge_2
+	int s08e01_ringfury_challenge_3
+	int s08e01_ringfury_challenge_4
+	int s08e02_buffet_points
+	int s08e02_wargames_challenge_2
+	int s08e02_wargames_challenge_3
+	int s08e02_wargames_challenge_4
+	int s08e04_finale_completed
+	int s08e04_finale_not_completed
+	int s08seasonal_character_wins
+	int s08seasonal_nessie_dailies
+	int s08seasonal_weapon_damage
+	int s09e01_arenas_placements_win
+	int s09e01_br_damage_done
+	int s09e01_br_dooms
+	int s09e01_buffet_points
+	int s09e02_01_arenas_matches_played
+	int s09e02_01_buffet_points
+	int s09e02_02_arenas_dooms
+	int s09e02_02_buffet_points
+	int s09e02_03_arenas_damage_done
+	int s09e02_03_buffet_points
+	int s11e01_arenas_damage_done
+	int s11e01_br_dooms
+	int s11e01_buffet_points
+	int s11e01_winter_express_damage_done
+	int s11e02_01_br_dooms
+	int s11e02_01_buffet_points
+	int s11e02_02_arenas_games_played
+	int s11e02_02_buffet_points
+	int s11e02_03_br_damage_done
+	int s11e02_03_buffet_points
+	int s12ace_br_damage_done
+	int s12ace_br_dooms
+	int s12ace_buffet_points
+	int s12ace_control_captures
+	int s12e01_br_damage_done
+	int s12e01_br_dooms
+	int s12e01_buffet_points
+	int s12e01_control_captures
+	int s12e02_01_br_dooms
+	int s12e02_01_buffet_points
+	int s12e02_02_br_damage_done
+	int s12e02_02_buffet_points
+	int s12e04_challenge_1
+	int s12e04_challenge_2
+	int s12e04_challenge_3
+	int s13_flash_01_buffet_points
+	int s16ace_buffet_points
+	int s16ace_damage_done_any_mode
+	int s16ace_kills_or_assists_any_mode
+	int s16ace_wins_tdm
+	int s16ce01_buffet_points
+	int s16ce01_damage_done_any_mode
+	int s16ce01_kills_or_assists_any_mode
+	int s16ce01_wins_any_mode
+	int s16ce02_buffet_points
+	int s16ce02_damage_done_any_mode
+	int s16ce02_kills_or_assists_any_mode
+	int s16ce02_top5_heatwave
+	int s16ce03_buffet_points
+	int s16ce03_damage_done_any_mode
+	int s16ce03_kills_or_assists_any_mode
+	int s16ce03_wins_tdm
+	int s17_eventrefactor_currency
+	int s17ce01_buffet_points
+	int s17ce01_damage_done_any_mode
+	int s17ce01_kills_or_assists_any_mode
+	int s17ce01_shotgun_damage_done_any_mode
+	int s17fe01_buffet_points
+	int s17fe01_damage_done_any_mode
+	int s17fe01_health_restored_any_mode
+	int s17fe01_kills_or_assists_any_mode
+	int s18ce01_buffet_points
+	int s18ce01_damage_done_any_mode
+	int s18ce01_kills_or_assists_any_mode
+	int s18ce01_wins_any_mode
+	int s18rr_damage_any_mode
+	int s18rr_highlight_enemies
+	int s18rr_shadowform_kas
+	int s18rr_shadowpounce_distance
+	int scanned_ring_locations_reached
+	int season01_event_placements_top_5
+	int season02_event01_top5s_badge
+	sStatEnumStruct_seasons seasons[eSeasonFlavor]
+	int seer_enemy_heartbeats_heard
+	int seer_exhibit_enemies_inside
+	int seer_focus_of_attention_hits
+	int self_revives
+	int shield_restored
+	int shots
+	int skirmisher_games_played
+	int slide_count
+	int support_games_played
+	int survival_time_seconds
+	int team_work_kill_count
+	int thanks
+	int times_fully_kitted
+	int times_got_doomed
+	int times_jumpmaster
+	int times_jumpmaster_post_fix
+	int times_respawned_ally
+	int top_3_with_3_kill_ko_assist
+	int total_legendary_items
+	int valentines_revives_and_respawns
+	int valk_distance_travelled_passive
+	int valk_enemies_hit_tactical
+	int valk_teammates_carried_ult
+	int vantage_passive_enemies_pinged
+	int vantage_tactical_distance
+	int vantage_ultimate_damage
+	int vantage_ultimate_marked_hits
+	int voidring_damage_prevented
+	int wattson_breaches_detected
+	int wattson_enemy_ordnance_intercepted
+	int wattson_friendly_shields_charged
+	int weapon_supply_bin_epics_looted
+	int weapon_supply_bins_looted
+	sStatEnumStruct_weaponcategories weaponcategories[eWeaponStatCategory]
+	sStatEnumStruct_weapons weapons[eWeaponFlavor]
+	int weapons_with_legendary_skin
+	int well_rounded
+	int win_streak_account_badge_current
+	int win_streak_account_badge_longest
+	int win_streak_current
+	int win_streak_longest
+	int winning_kills
+	int wraith_passive_voices_heard
+	int wraith_tactical_time_spent_in_phase
+	int wraith_ultimate_phase_tunnel_ally_uses
+$STRUCT_END
+
+// 
+$STRUCT_START sStatEnumStructSOPM_characters
+	int arenas_character_damage_done_max_single_game
+	int arenas_character_kills_max_single_game
+	int arenas_character_rounds_won
+	int arenas_character_win_streak_longest_new
+	int character_damage_done_max_single_game
+	int character_games_with_respawning_both_teammates
+	int character_hot_streaks
+	int character_placements_win_as_jumpmaster
+	int character_placements_win_as_killleader
+	int character_placements_win_as_killleader_and_champion
+	int character_placements_win_flawless_1
+	int character_placements_win_flawless_2
+	int character_placements_win_with_5_headshots
+	int character_rapid_eliminations
+	int character_reinforcement_recalls
+	int damage_done
+	int damage_done_all_modes_non_br
+	int damage_done_any_mode
+	int dooms
+	int dooms_all_modes_non_br
+	int games_played
+	int games_played_all_modes_non_br
+	int games_played_any_mode
+	int games_with_20_kills
+	int games_with_5_kills
+	int kills
+	int kills_all_modes_non_br
+	int most_squad_squad_kills_in_1_game
+	int placements_top_10
+	int placements_top_3
+	int placements_win
+	int placements_win_all_modes_non_br
+	int placements_win_with_squad_alive
+	int winning_kills
+$STRUCT_END
+
+// 
+$STRUCT_START sStatEnumStructSOPM_modes_characters
+	int damage_done
+	int dooms
+	int games_played
+	int kills
+	int placements_win
+$STRUCT_END
+
+// 
+$STRUCT_START sStatEnumStructSOPM_modes_weaponcategories
+	int damage_done
+	int dooms
+$STRUCT_END
+
+// 
+$STRUCT_START sStatEnumStructSOPM_modes
+	sStatEnumStructSOPM_modes_characters characters[eCharacterFlavor]
+	int damage_done
+	int dooms
+	int executions
+	int games_played
+	int headshots
+	int kills
+	int kills_or_assists
+	int placements_win
+	int revived_ally
+	sStatEnumStructSOPM_modes_weaponcategories weaponcategories[eWeaponStatCategory]
+	int win_streak_current
+	int win_streak_longest
+$STRUCT_END
+
+// 
+$STRUCT_START sStatEnumStructSOPM_weaponcategories
+	int damage_done
+	int damage_done_all_modes_non_br
+	int damage_done_any_mode
+	int dooms
+	int dooms_all_modes_non_br
+	int headshots
+	int kills
+$STRUCT_END
+
+// 
+$STRUCT_START sStatEnumStructSOPM_seasons
+	int battlepass_level
+$STRUCT_END
+
+// 
+$STRUCT_START sStatEnumStructSOPM_rankedperiods
+	int badge_award_level
+	int current_rank_score
+	int gained_rank_score_only
+$STRUCT_END
+
+// 
+$STRUCT_START sStatEnumStructSOPM_arenasrankedperiods
+	int badge_award_level
+	int current_rank_score
+	int gained_rank_score_only
+$STRUCT_END
+
+// data as of start of previous match
+$STRUCT_START sStatsDataSOPM
+	int account_level
+	int arenas_badge_no_down_win
+	int arenas_badge_perfect_game
+	int arenas_cash_stations_captured
+	int arenas_heals_purchased
+	int arenas_ordnance_purchased
+	int arenas_rounds_won
+	int arenas_skills_purchased
+	int arenas_weapons_upgraded
+	int arenas_win_with_5_kill_ko_assist
+	sStatEnumStructSOPM_arenasrankedperiods arenasrankedperiods[eArenasRankedPeriodFlavor]
+	int armor_upgaraded_count
+	int ash_enemies_marked
+	int ash_enemies_tethered
+	int ash_players_portaled
+	int assault_games_played
+	int assists
+	int assists_all_modes_non_br
+	int ballistic_passive_sling_kills
+	int ballistic_tactical_enemies_hit
+	int ballistic_tactical_enemies_overheated
+	int ballistic_ultimate_damage
+	int bangalore_passive_distance
+	int bangalore_tactical_smoke_hits
+	int bangalore_ultimate_damage_done
+	int beacon_scanned_squads_killed
+	int beginner_distance_kill
+	int bloodhound_tactical_enemies_detected
+	int bloodhound_tactical_traps_detected
+	int bloodhound_ultimate_kills_while_active
+	int br_top_10_or_arena_win
+	int care_packages_revealed
+	int catalyst_dark_veil_enemies_crossed
+	int catalyst_doors_barricaded
+	int catalyst_spikes_damage
+	int caustic_gas_damage_dealt
+	int caustic_passive_enemies_in_gas_killed
+	int caustic_tactical_barrels_traps_detonated
+	int challenge_stars_earned
+	int challenge_xp_earned
+	sStatEnumStructSOPM_characters characters[eCharacterFlavor]
+	int clubs_games_played_with_club
+	int clubs_placements_win_with_club
+	int clubs_placements_win_with_club_no_deaths
+	int clubs_placements_win_with_club_no_deaths_or_knockouts
+	int clubs_placements_win_with_club_squad_alive
+	int clubs_placements_win_with_club_streak
+	int controller_games_played
+	int crafting_harvester_used_any_mode
+	int crypto_passive_enemies_scanned
+	int crypto_ultimate_shield_damage
+	int crypto_ultimate_traps_destroyed
+	int daily_challenges_completed
+	int damage_done
+	int damage_done_all_modes_non_br
+	int damage_done_any_mode
+	int damage_done_first_ring_round_br
+	int damage_done_hipfire_any_mode
+	int damage_done_ordnance_any_mode
+	int damage_done_to_prowler_on_storm_point
+	int damage_done_to_spider_on_storm_point
+	int damage_with_red_weapons_any_mode
+	int deaths_all_modes_non_br
+	int distance_kill
+	int dooms
+	int dooms_all_modes_non_br
+	int dooms_any_mode
+	int doors_broken_by_melee
+	int equipped_attachment
+	int evoarmor_evolves
+	int evoarmor_evolves_to_purple
+	int evoarmor_evolves_to_red
+	int executions
+	int executions_all_modes_non_br
+	int executions_any_mode
+	int extended_supply_bins_looted
+	int fuse_cluster_bomb_hits
+	int fuse_grenade_distance_thrown
+	int fuse_motherlode_enemies_captured
+	int gamemode_control_became_expleader
+	int gamemode_control_capture_bonuses_claimed_by_team
+	int gamemode_control_highest_exp_as_expleader
+	int gamemode_control_killed_enemy_1_tier_higher
+	int gamemode_control_killed_enemy_2_tier_higher
+	int gamemode_control_killed_expleader
+	int gamemode_control_killed_objective_attacker
+	int gamemode_control_killed_objective_defender
+	int gamemode_control_objectives_captured
+	int gamemode_control_personal_exp_points_earned
+	int games_played
+	int games_played_all_modes_non_br
+	int games_played_any_mode
+	int gibraltar_passive_gunshield_enemy_damage_absorbed
+	int gibraltar_tactical_bubble_enemy_damage_absorbed
+	int gibraltar_ultimate_bombardment_kills
+	int headshots
+	int headshots_all_modes_non_br
+	int headshots_any_mode
+	int health_restored_any_mode
+	int horizon_blackhole_damage_done
+	int horizon_hard_landings_avoided
+	int horizon_teammates_gravity_lifted
+	int hovervehicle_occupant_meters_traveled
+	int items_crafted
+	int kills
+	int kills_all_modes_non_br
+	int kills_or_assists
+	int kills_or_assists_all_modes_non_br
+	int kills_or_assists_any_mode
+	int kills_with_red_weapons_any_mode
+	int kills_with_throwing_knife_gungame
+	int lifeline_passive_allies_revived
+	int lifeline_passive_enemy_damage_absorbed
+	int lifeline_tactical_drone_healing_given
+	int lifeline_ultimate_droppod_items_grabbed_by_allies
+	int loba_passive_loot_pinged_through_walls
+	int loba_tactical_meters_teleported
+	int loba_ultimate_loot_taken_by_allies
+	int loot_bins_opened
+	int looted_all_launch_loot_once
+	int looted_epic_item
+	int looted_legendary_armor
+	int looted_legendary_helmet
+	int looted_legendary_item
+	int maggie_riot_drill_drill_distance
+	int maggie_warlords_ire_highlight_time
+	int maggie_wrecking_ball_boost_distance
+	int master_of_all
+	int materials_collected
+	int max_placement_win_streak_with_premade_squad
+	int melee_damage_any_mode
+	int mirage_decoys_created
+	int mirage_successful_bamboozles
+	int mirage_successful_revives
+	int mirror_legend_kills_any_mode
+	sStatEnumStructSOPM_modes modes[eModesFlavors]
+	int neutral_airdrops_looted
+	int newcastle_allies_rescued
+	int newcastle_mobile_shield_damage
+	int newcastle_revive_distance
+	int octane_jump_pad_allies_launched
+	int octane_passive_health_regenerated
+	int octane_stim_distance_traveled
+	int opponents_outlived
+	int pathfinder_passive_beacons_scanned
+	int pathfinder_tactical_meters_moved_by_grapple
+	int pathfinder_ultimate_ziplines_used_by_allies
+	int phoenix_kits_used
+	int placements_top_10
+	int placements_top_3
+	int placements_top_5
+	int placements_win
+	int placements_win_all_modes_non_br
+	int placements_win_with_friends
+	int placements_win_with_min_executions_per_person
+	int placements_win_with_no_witnessess
+	int rampart_tactical_bullets_amped
+	int rampart_tactical_damage_blocked
+	int rampart_ultimate_bullets_fired
+	sStatEnumStructSOPM_rankedperiods rankedperiods[eRankedStatPeriod]
+	int recon_games_played
+	int recon_passive_beacons_scanned
+	int respawn_banners_crafted
+	int respawned_ally
+	int revealed_care_packages_looted
+	int revenant_death_totem_activates
+	int revenant_passive_marked_enemies
+	int revenant_silenced_target
+	int revenant_silenced_target_knockdowns
+	int revenant_tactical_distance
+	int revenant_ultimate_knocks_kills
+	int revenant_unlock_passive_marked_enemies
+	int revenant_unlock_tactical_distance
+	int revenant_unlock_ultimate_knocks_kills
+	int revived_ally
+	int revived_ally_all_modes_non_br
+	int ring_closings_survived
+	int ring_consoles_used
+	int s13_flash_01_buffet_points
+	int s16ace_buffet_points
+	int s16ace_combined_badge_earned
+	int s16ace_damage_done_any_mode
+	int s16ace_kills_or_assists_any_mode
+	int s16ace_wins_tdm
+	int s16ce01_buffet_points
+	int s16ce01_combined_badge_earned
+	int s16ce01_damage_done_any_mode
+	int s16ce01_kills_or_assists_any_mode
+	int s16ce01_wins_any_mode
+	int s16ce02_buffet_points
+	int s16ce02_combined_badge_earned
+	int s16ce02_damage_done_any_mode
+	int s16ce02_kills_or_assists_any_mode
+	int s16ce02_top5_heatwave
+	int s16ce03_buffet_points
+	int s16ce03_combined_badge_earned
+	int s16ce03_damage_done_any_mode
+	int s16ce03_kills_or_assists_any_mode
+	int s16ce03_wins_tdm
+	int s17_eventrefactor_currency
+	int s17ce01_buffet_points
+	int s17ce01_combined_badge_earned
+	int s17ce01_damage_done_any_mode
+	int s17ce01_kills_or_assists_any_mode
+	int s17ce01_shotgun_damage_done_any_mode
+	int s17fe01_buffet_points
+	int s17fe01_combined_badge_earned
+	int s17fe01_damage_done_any_mode
+	int s17fe01_health_restored_any_mode
+	int s17fe01_kills_or_assists_any_mode
+	int s18ce01_buffet_points
+	int s18ce01_combined_badge_earned
+	int s18ce01_damage_done_any_mode
+	int s18ce01_kills_or_assists_any_mode
+	int s18ce01_wins_any_mode
+	int s18rr_challenges_completed
+	int s18rr_damage_any_mode
+	int s18rr_highlight_enemies
+	int s18rr_shadowform_kas
+	int s18rr_shadowpounce_distance
+	int scanned_ring_locations_reached
+	sStatEnumStructSOPM_seasons seasons[eSeasonFlavor]
+	int seer_enemy_heartbeats_heard
+	int seer_exhibit_enemies_inside
+	int seer_focus_of_attention_hits
+	int self_revives
+	int shield_restored
+	int skirmisher_games_played
+	int slide_count
+	int support_games_played
+	int survival_time_seconds
+	int team_work_kill_count
+	int thanks
+	int times_fully_kitted
+	int top_3_with_3_kill_ko_assist
+	int valentines_revives_and_respawns
+	int valk_distance_travelled_passive
+	int valk_enemies_hit_tactical
+	int valk_teammates_carried_ult
+	int vantage_passive_enemies_pinged
+	int vantage_tactical_distance
+	int vantage_ultimate_damage
+	int vantage_ultimate_marked_hits
+	int voidring_damage_prevented
+	int wattson_breaches_detected
+	int wattson_friendly_shields_charged
+	int weapon_supply_bin_epics_looted
+	int weapon_supply_bins_looted
+	sStatEnumStructSOPM_weaponcategories weaponcategories[eWeaponStatCategory]
+	int well_rounded
+	int win_streak_account_badge_current
+	int win_streak_account_badge_longest
+	int win_streak_current
+	int wraith_passive_voices_heard
+	int wraith_tactical_time_spent_in_phase
+	int wraith_ultimate_phase_tunnel_ally_uses
+$STRUCT_END
+
+// Data for Arenas Ranked.
+$STRUCT_START sArenasRankedData
+	bool arenasRankedInitialized
+	int arenasRankedPlacementMatchesCompleted
+	int currentArenasRankedScore
+	int endFirstSplitLadderPosition
+	int endSeriesLadderPosition
+	int firstSplitRankedScore
+	int highestArenasRankedScore
+$STRUCT_END
+
+// Stat info for mastery trials
+$STRUCT_START sMasteryTrial
+	int sopm_stat
+	int stat
+$STRUCT_END
+
+// Data for one mastery item
+$STRUCT_START sMasteryData
+	int level
+	int rewardseq
+	int sopm_xp
+	sMasteryTrial trial_list[5]
+	int xp
+	int xp_modifier_list[13]
+$STRUCT_END
+
+// 
+//::::GRX::::
+	sQueuedRewardData grxQueuedRewards[12]
+//::::GRX::::
+
+// 
+//::::ENTITLEMENT MENU DATA::::
+	bool ASCENSION_PACK_HORIZONAcknowledged
+	bool BANGALORE_SKU_PACKAcknowledged
+	bool BOOSTED_PACK_RAMPARTAcknowledged
+	bool CHAMPION_SKU_PACKAcknowledged
+	bool DEFIANCE_PACK_MADMAGGIEAcknowledged
+	bool EMERGENCE_PACK_SEERAcknowledged
+	bool ESCAPE_PACK_ASHAcknowledged
+	bool GIBRALTAR_SKU_PACKAcknowledged
+	bool LEGACY_PACK_VALKAcknowledged
+	bool LOBA_SKU_PACKAcknowledged
+	bool MAYHEM_PACK_FUSEAcknowledged
+	bool MIRAGE_SKU_PACKAcknowledged
+	bool PSPLUS_PACK_16Acknowledged
+	bool PSPLUS_PACK_17Acknowledged
+	bool PSPLUS_PACK_18Acknowledged
+	bool PSPLUS_PACK_19Acknowledged
+	bool SAVIORS_PACK_NEWCASTLEAcknowledged
+	bool XBOX_COINS_VIRTUAL_CURRENCYAcknowledged
+	bool XBOX_EA_PLAY_CHARM_GOLD_ARC_STAR_01Acknowledged
+	bool XBOX_EA_PLAY_CHARM_GOLD_FLAG_GRENADE_01Acknowledged
+	bool XBOX_EA_PLAY_CHARM_GOLD_GIBBY_BIKE_01Acknowledged
+	bool XBOX_EA_PLAY_CHARM_GOLD_GIB_SHIELD_01Acknowledged
+	bool XBOX_EA_PLAY_CHARM_GOLD_GRAPPLE_HOOK_01Acknowledged
+	bool XBOX_EA_PLAY_CHARM_GOLD_HACKER_LAPTOP_01Acknowledged
+	bool XBOX_EA_PLAY_CHARM_GOLD_HUNTER_TROPHY_01Acknowledged
+	bool XBOX_EA_PLAY_CHARM_GOLD_MIRAGE_BAG_01Acknowledged
+	bool XBOX_EA_PLAY_CHARM_GOLD_OCTANE_STIM_01Acknowledged
+	bool XBOX_EA_PLAY_CHARM_GOLD_PATHFINDER_SCREEN_01Acknowledged
+	bool XBOX_EA_PLAY_CHARM_GOLD_SUPPLY_01Acknowledged
+	bool XBOX_EA_PLAY_CHARM_GOLD_VOIDWALKER_HELMET_01Acknowledged
+	bool XBOX_EA_PLAY_CHARM_SCIENCE_MUG_01Acknowledged
+	bool XBOX_FREE_BATTLE_PASSAcknowledged
+	bool XBOX_FREE_CRAFTING_METALSAcknowledged
+	bool XBOX_GOLD_PACK_06Acknowledged
+	bool XBOX_GOLD_PACK_07Acknowledged
+	bool XBOX_GOLD_PACK_08Acknowledged
+	bool XBOX_GOLD_PACK_09Acknowledged
+	bool algs_s15_holosprayAcknowledged
+	bool algs_s15_r99_skinAcknowledged
+	bool algs_s15_weapon_charmAcknowledged
+	bool algs_s15_wraith_skinAcknowledged
+	bool algs_s17_holosprayAcknowledged
+	bool algs_s17_peacekeeper_skinAcknowledged
+	bool algs_s17_stickerAcknowledged
+	bool algs_s17_valkyrie_skinAcknowledged
+	bool algs_s17_weapon_charmAcknowledged
+	bool algs_s18_holosprayAcknowledged
+	bool algs_s18_loba_skinAcknowledged
+	bool algs_s18_stickerAcknowledged
+	bool algs_s18_weapon_charmAcknowledged
+	bool algs_s18_wingman_skinAcknowledged
+	bool amazon_drop_23Acknowledged
+	bool amazon_drop_24Acknowledged
+	bool amazon_drop_25Acknowledged
+	bool amazon_drop_26Acknowledged
+	bool amazon_drop_27Acknowledged
+	bool amazon_drop_28Acknowledged
+	bool amazon_drop_29Acknowledged
+	bool amazon_drop_30Acknowledged
+	bool bloodhoundSKUAcknowledged
+	sEntitlementsSequenceRewards entitlementsSequenceRewards
+	bool genericEntitlementsAcknowledgement
+	bool lifelineSKUAcknowledged
+	bool lobaStarterPackAcknowledged
+	bool octaneSKUAcknowledged
+	bool pathfinderSKUAcknowledged
+	bool revenantStarterPackAcknowledged
+	bool s15_eclipse_drops_day_1Acknowledged
+	bool s15_eclipse_drops_day_2Acknowledged
+	bool s15_eclipse_drops_day_3Acknowledged
+	bool s15_eclipse_drops_day_4Acknowledged
+	bool s15_eclipse_drops_day_5Acknowledged
+	bool twitch_drops_s10_community_01Acknowledged
+	bool twitch_drops_s10_community_02Acknowledged
+	bool twitch_drops_s10_community_04Acknowledged
+	bool twitch_drops_s10_community_05Acknowledged
+	bool twitch_drops_s15_monster_energyAcknowledged
+	bool twitch_drops_s16_community_02Acknowledged
+	bool twitch_drops_s16_community_05Acknowledged
+	bool twitch_drops_s16_community_08Acknowledged
+	bool twitch_drops_s16_community_11Acknowledged
+//::::ENTITLEMENT MENU DATA::::
+
+// 
+//::::LOADOUTS::::
+	sLoadoutsData loadouts
+//::::LOADOUTS::::
+
+// 
+//::::CACHED CHARACTER OWNERSHIP::::
+	bool cachedCharacterOwnership[eCharacterFlavor]
+//::::CACHED CHARACTER OWNERSHIP::::
+
+// 
+//::::VOUCHER CONSUMABLE USE COUNT DATA - DO NOT CHANGE OR MARKETPLACE SYNC WILL BREAK::::
+	int bp_stars_1
+	int mythic_bloodhound_make_good
+	int quest_reward_bp_stars_10
+	int quest_reward_bp_stars_2
+//::::VOUCHER CONSUMABLE USE COUNT DATA - DO NOT CHANGE OR MARKETPLACE SYNC WILL BREAK::::
+
+// 
+//::::SHARED RANKED VARS::::
+	int lastTimeGameWasRankedAbandoned
+	int numPenalizedAbandons
+	int numUsedForgivenessAbandons
+	int totalRankedGamesAbandoned
+//::::SHARED RANKED VARS::::
+
+// 
+//::::BATTLE PASS DATA::::
+	sBattlePassData battlePasses[eBattlePass]
+//::::BATTLE PASS DATA::::
+
+// 
+//::::SEASON QUEST VARS::::
+	sSeasonQuestData questDatas[eQuestFlavor]
+	int rewardseq_s09_quest
+	int rewardseq_s09_quest_piece
+	int rewardseq_s10_quest_piece
+	int rewardseq_s11_quest
+	int rewardseq_s11_quest_piece
+	int rewardseq_s12_quest
+	int rewardseq_s12_quest_piece
+	int rewardseq_s13_quest
+	int rewardseq_s13_quest_piece
+	int rewardseq_s14_quest
+	int rewardseq_s14_quest_piece
+	int rewardseq_s15_quest
+	int rewardseq_s15_quest_piece
+	int rewardseq_s16_quest
+	int rewardseq_s16_quest_piece
+	int rewardseq_s17_quest
+	int rewardseq_s17_quest_piece
+	int rewardseq_s18_quest
+	int rewardseq_s18_quest_piece
+//::::SEASON QUEST VARS::::
+
+// 
+//::::CHALLENGES::::
+	sChallengeData challenges[164]
+	int currentBattlePassChallengeSeason
+	int dailyExpirationTime
+	int dailyRerollCount
+	int favoriteChallengeGUID[5]
+	sPostGameChallengesProgress postGameChallengesProgress[164]
+	int postgameGrindStartTier
+	int postgameGrindStartValue
+	int rewardseq_s11e01_challenge_main
+	int rewardseq_s11e02_01_challenge_main
+	int rewardseq_s11e02_02_challenge_main
+	int rewardseq_s11e02_03_challenge_main
+	int rewardseq_s12ace_challenge_main
+	int rewardseq_s12e01_challenge_main
+	int rewardseq_s12e02_01_challenge_main
+	int rewardseq_s12e02_02_challenge_main
+	int rewardseq_s13_flash_01_challenge_main
+	int rewardseq_s13e01_challenge_main
+	int rewardseq_s13e02_01_challenge_main
+	int rewardseq_s13e02_02_challenge_main
+	int rewardseq_s14e01_challenge_main
+	int rewardseq_s15e00_01_challenge_main
+	int rewardseq_s15e00_02_challenge_main
+	int rewardseq_s15e00_03_challenge_main
+	int rewardseq_s15e01_challenge_main
+	int rewardseq_s15lny_challenge_main
+	int rewardseq_s16ace_challenge_main
+	int rewardseq_s16ce01_challenge_main
+	int rewardseq_s16ce02_challenge_main
+	int rewardseq_s16ce03_challenge_main
+	int rewardseq_s17ce01_challenge_main
+	int rewardseq_s17ce02_challenge_main
+	int rewardseq_s17fe01_challenge_main
+	int rewardseq_s18ce01_challenge_main
+	int weeklyGroupOrder[13]
+	int weeklyRecurringLastResetWeek
+//::::CHALLENGES::::
+
+// 
+//::::ITEM STATE::::
+	int newItemFlavorSparseList[80]
+//::::ITEM STATE::::
+
+// 
+//::::STATS::::
+	sStatsData stats
+	sStatsDataSOPM stats_sopm
+//::::STATS::::
+
+// 
+//::::ARENAS RANKED VARS::::
+	sArenasRankedData arenasRankedData[eArenasRankedPeriodFlavor]
+	int placementWins
+	bool showArenasRankedSummary
+//::::ARENAS RANKED VARS::::
+
+// 
+//::::CONTROL VARS::::
+	bool lastGameControlAbandon
+	int lastTimeGameWasControlAbandoned
+	int numControlAbandons
+//::::CONTROL VARS::::
+
+// 
+//::::WEAPON MASTERY::::
+	int mastery_rewardseq_all_weapon
+	sMasteryData mastery_weapons[eWeaponFlavor]
+//::::WEAPON MASTERY::::
+
+// 
+//::::ACCOUNT LEVEL REWARD DATA::::
+	int grxAccountAccessSeq
+	int grxAccountFounderSeq
+	int grxAccountRewardSeq
+	int grxAccountStarterSeq
+	int grxAccountTwitchSeq
+	int grxAccountV2RewardSeq
+	int oldXPProgressionPlusOne
+	int rewardseq_s17_seasonalcurrency
+	int rewardseq_s18_stickerv3_completion
+	int rewardseq_s18ce01_event_completion
+	int v2XPProgressionPlusOne
+//::::ACCOUNT LEVEL REWARD DATA::::
+
+////////////////////////////////////////////
+//END_AUTOGEN/////////////////////////////// 
